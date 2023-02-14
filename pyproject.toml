@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rzn"
+version = "0.1.0"
+description = ""
+authors = ["Vbox ubuntu <ash-salman@yandex.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+selenium = "^4.8.0"
+webdriver-manager = "^3.8.5"
+selenium-stealth = "^1.0.6"
+selenium-wire = "^5.1.0"
+selenium-screenshot = "^2.0.0"
+beautifulsoup4 = "^4.11.2"
+lxml = "^4.9.2"
+django = "^4.1.7"
+psycopg2 = "^2.9.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
