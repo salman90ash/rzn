@@ -16,6 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from tg_bot.views import tg_create_user
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('tg/api/v1/<str:token>/create_user/', tg_create_user),
 ]
