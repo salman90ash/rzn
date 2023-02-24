@@ -1,0 +1,5663 @@
+[
+  {
+    "model": "rzn.Tasks",
+    "id": 1,
+    "fields": {
+      "title": "Хекса темп",
+      "user_id": 73,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 2,
+    "fields": {
+      "title": "Мэйплсон",
+      "user_id": 73,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 3,
+    "fields": {
+      "title": "Portico",
+      "user_id": 74,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 4,
+    "fields": {
+      "title": "Hi-torque",
+      "user_id": 74,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 5,
+    "fields": {
+      "title": "Sentus",
+      "user_id": 74,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 6,
+    "fields": {
+      "title": "Помпы",
+      "user_id": 74,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 7,
+    "fields": {
+      "title": "Qflow",
+      "user_id": 75,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 8,
+    "fields": {
+      "title": "Фиброскан 530",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 9,
+    "fields": {
+      "title": "Фиброскан 430 мини",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 10,
+    "fields": {
+      "title": "Инкубатор LeadBorn",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 11,
+    "fields": {
+      "title": "Магистрали С18",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 12,
+    "fields": {
+      "title": "Дио, смена УПП",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 13,
+    "fields": {
+      "title": "ФС 2+",
+      "user_id": 73,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 14,
+    "fields": {
+      "title": "Капнограф",
+      "user_id": 73,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 15,
+    "fields": {
+      "title": "Ввоз Тани",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 16,
+    "fields": {
+      "title": "Таня ввоз 3406",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 17,
+    "fields": {
+      "title": "Маски",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 18,
+    "fields": {
+      "title": "Магистраль Сандер",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 19,
+    "fields": {
+      "title": "Письмо по холодильникам",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 20,
+    "fields": {
+      "title": "Магистраль кровопроводящая для гемодиализа",
+      "user_id": 79,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 21,
+    "fields": {
+      "title": "Морозильник LF1400",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 22,
+    "fields": {
+      "title": "Магистраль кровопроводящая для гемодиализа",
+      "user_id": 79,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 23,
+    "fields": {
+      "title": "Магистраль с нуля",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 24,
+    "fields": {
+      "title": "Морозильник LF 700",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 25,
+    "fields": {
+      "title": "Морозильник LF 500",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 26,
+    "fields": {
+      "title": "Холодильник LF 300",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 27,
+    "fields": {
+      "title": "Морозильник ULTF420",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 28,
+    "fields": {
+      "title": "Морозильник ULTF 320",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 29,
+    "fields": {
+      "title": "Морозильник ULTF 80",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 30,
+    "fields": {
+      "title": "Холодильник LFF 660",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 31,
+    "fields": {
+      "title": "Холодильник LFF 270",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 32,
+    "fields": {
+      "title": "Холодильник PR 700",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 33,
+    "fields": {
+      "title": "Холодильник PR 500",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 34,
+    "fields": {
+      "title": "Холодильник LR 1400",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 35,
+    "fields": {
+      "title": "Холодильник LR 700",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 36,
+    "fields": {
+      "title": "Холодильник LR 500",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 37,
+    "fields": {
+      "title": "Холодильник LR 300",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 38,
+    "fields": {
+      "title": "Морозильник BBR1400",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 39,
+    "fields": {
+      "title": "Морозильник BBR 700",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 40,
+    "fields": {
+      "title": "Морозильник BBR 500",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 41,
+    "fields": {
+      "title": "Модуль мед. Служба крови",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 42,
+    "fields": {
+      "title": "Fibroscan 430",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 43,
+    "fields": {
+      "title": "Cтерилизатор СASP",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 44,
+    "fields": {
+      "title": "Изделия для заготовки и хранения ствол.клеток",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 45,
+    "fields": {
+      "title": "Инкубатор LeadBorn",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 46,
+    "fields": {
+      "title": "Автоклавы LEADCORE",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 47,
+    "fields": {
+      "title": "Fibroscan 530",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 49,
+    "fields": {
+      "title": "Маски Дельрус",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 50,
+    "fields": {
+      "title": "Смотровка",
+      "user_id": 73,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 51,
+    "fields": {
+      "title": "Ввоз Магистрали С18 Никисо",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 52,
+    "fields": {
+      "title": "Магистрали C18RFC-P",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 53,
+    "fields": {
+      "title": "Автоклавы медицинские LEADCORE",
+      "user_id": 80,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 54,
+    "fields": {
+      "title": "Стерилизатор медицинский CASP с принадлежностями",
+      "user_id": 80,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 55,
+    "fields": {
+      "title": "Изделия для заготовки и хранения",
+      "user_id": 80,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 56,
+    "fields": {
+      "title": "10181",
+      "user_id": 75,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 57,
+    "fields": {
+      "title": "Qflow",
+      "user_id": 81,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 58,
+    "fields": {
+      "title": "carescape R860",
+      "user_id": 81,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 59,
+    "fields": {
+      "title": "ввоз 10181",
+      "user_id": 81,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 60,
+    "fields": {
+      "title": "ввоз 10181(верный)",
+      "user_id": 81,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 61,
+    "fields": {
+      "title": "ввоз 10183",
+      "user_id": 81,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 62,
+    "fields": {
+      "title": "Ввоз Магистрали С18",
+      "user_id": 72,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 63,
+    "fields": {
+      "title": "Магистрали С18-RFC-P повтор",
+      "user_id": 78,
+      "date_created": "2021-02-15 20:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 64,
+    "fields": {
+      "title": "Наборы ТТ",
+      "user_id": 73,
+      "date_created": "2021-02-16 14:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 65,
+    "fields": {
+      "title": "Маски 1",
+      "user_id": 73,
+      "date_created": "2021-02-16 14:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 66,
+    "fields": {
+      "title": "Система НИВ",
+      "user_id": 73,
+      "date_created": "2021-02-16 14:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 67,
+    "fields": {
+      "title": "Маски 2",
+      "user_id": 73,
+      "date_created": "2021-02-16 14:04"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 68,
+    "fields": {
+      "title": "АйСил",
+      "user_id": 73,
+      "date_created": "2021-02-16 17:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 69,
+    "fields": {
+      "title": "Import C18",
+      "user_id": 72,
+      "date_created": "2021-02-16 20:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 70,
+    "fields": {
+      "title": "Лучепровод",
+      "user_id": 74,
+      "date_created": "2021-02-18 8:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 71,
+    "fields": {
+      "title": "9535",
+      "user_id": 74,
+      "date_created": "2021-02-18 8:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 72,
+    "fields": {
+      "title": "Ай Сил",
+      "user_id": 73,
+      "date_created": "2021-02-20 10:54"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 75,
+    "fields": {
+      "title": "Магистраль C07J-P",
+      "user_id": 72,
+      "date_created": "2021-02-20 14:12"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 76,
+    "fields": {
+      "title": "Аппарат DBB-EXA",
+      "user_id": 72,
+      "date_created": "2021-02-20 14:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 77,
+    "fields": {
+      "title": "Raucodrape",
+      "user_id": 75,
+      "date_created": "2021-02-23 12:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 78,
+    "fields": {
+      "title": "К.Г. АВО with DVI-/Kell",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:05"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 79,
+    "fields": {
+      "title": "К.Г. Double ABO/DVI+",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:07"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 80,
+    "fields": {
+      "title": "Комбинезон (подтверждение)",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 81,
+    "fields": {
+      "title": "Респиратор (подтверждение)",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 82,
+    "fields": {
+      "title": "Анализатор автоматический octo m",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 83,
+    "fields": {
+      "title": "Считыватель",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 84,
+    "fields": {
+      "title": "Инкубатор",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 85,
+    "fields": {
+      "title": "Центрифуга",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 86,
+    "fields": {
+      "title": "К.Г. Phenotyping with Kell",
+      "user_id": 78,
+      "date_created": "2021-03-02 12:59"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 87,
+    "fields": {
+      "title": "К.Г. Phenotyping",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:00"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 88,
+    "fields": {
+      "title": "К.Г. DAT",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 89,
+    "fields": {
+      "title": "К.Г. Neutral",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 90,
+    "fields": {
+      "title": "Н.э.с. RBC A1/B",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 91,
+    "fields": {
+      "title": "Н.э.с. Screen 4P",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:04"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 92,
+    "fields": {
+      "title": "Н.э.с. Identi Cell",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:05"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 93,
+    "fields": {
+      "title": "Н.э.с. Screen 3",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:06"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 94,
+    "fields": {
+      "title": "Раствор низкой ионной силы LISS",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 95,
+    "fields": {
+      "title": "Карта гелевая  AHG (IgG+C3d)",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 96,
+    "fields": {
+      "title": "К.Г. ABO with DVI+/Kell",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:12"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 97,
+    "fields": {
+      "title": "К.Г. ABO with DVI-/DVI+",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 98,
+    "fields": {
+      "title": "К.Г. Newborn",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 99,
+    "fields": {
+      "title": "Н.э.с. Screen2",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 100,
+    "fields": {
+      "title": "Н.э.с. Screen 4",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 101,
+    "fields": {
+      "title": "Магистраль зам.жидкости для гемодиализа C07J-P",
+      "user_id": 78,
+      "date_created": "2021-03-02 13:44"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 104,
+    "fields": {
+      "title": "Рексид ввоз",
+      "user_id": 72,
+      "date_created": "2021-03-10 15:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 105,
+    "fields": {
+      "title": "Гемодиализатор Rexeed",
+      "user_id": 78,
+      "date_created": "2021-03-10 15:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 106,
+    "fields": {
+      "title": "Комплект магистралей д/очистки крови",
+      "user_id": 78,
+      "date_created": "2021-03-10 15:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 107,
+    "fields": {
+      "title": "Периметр Метровижн (доп.комплектация)",
+      "user_id": 78,
+      "date_created": "2021-03-10 15:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 108,
+    "fields": {
+      "title": "Лепу",
+      "user_id": 82,
+      "date_created": "2021-03-16 12:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 109,
+    "fields": {
+      "title": "TEST 532ВР/21",
+      "user_id": 72,
+      "date_created": "2021-03-16 14:32"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 110,
+    "fields": {
+      "title": "Наконечники",
+      "user_id": 78,
+      "date_created": "2021-03-17 17:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 111,
+    "fields": {
+      "title": "Кюветы",
+      "user_id": 78,
+      "date_created": "2021-03-17 17:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 112,
+    "fields": {
+      "title": "Окто",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 113,
+    "fields": {
+      "title": "Считыватель",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 114,
+    "fields": {
+      "title": "Инкубатор",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 115,
+    "fields": {
+      "title": "Центрифуга",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 116,
+    "fields": {
+      "title": "201",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 117,
+    "fields": {
+      "title": "204",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 118,
+    "fields": {
+      "title": "205",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 119,
+    "fields": {
+      "title": "206",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 120,
+    "fields": {
+      "title": "209",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 121,
+    "fields": {
+      "title": "210",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:32"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 122,
+    "fields": {
+      "title": "213",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 123,
+    "fields": {
+      "title": "215",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 124,
+    "fields": {
+      "title": "216",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 125,
+    "fields": {
+      "title": "219",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 126,
+    "fields": {
+      "title": "Rbc A1/B",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 127,
+    "fields": {
+      "title": "Scr 2",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 128,
+    "fields": {
+      "title": "Scr 4",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 129,
+    "fields": {
+      "title": "Scr 4P",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 130,
+    "fields": {
+      "title": "Identicell",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 131,
+    "fields": {
+      "title": "Scr 3",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 132,
+    "fields": {
+      "title": "Liss",
+      "user_id": 82,
+      "date_created": "2021-03-17 23:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 133,
+    "fields": {
+      "title": "Комп. Магистралей д/очистки крови (ФГМ)",
+      "user_id": 78,
+      "date_created": "2021-03-18 18:47"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 134,
+    "fields": {
+      "title": "Эстрадиол Контроль",
+      "user_id": 78,
+      "date_created": "2021-03-18 18:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 135,
+    "fields": {
+      "title": "Эстрадиол Реагент",
+      "user_id": 78,
+      "date_created": "2021-03-18 18:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 136,
+    "fields": {
+      "title": "Рексид 21л",
+      "user_id": 72,
+      "date_created": "2021-03-24 17:46"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 137,
+    "fields": {
+      "title": "Rexeed третья версия",
+      "user_id": 78,
+      "date_created": "2021-03-24 20:06"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 138,
+    "fields": {
+      "title": "Филипс",
+      "user_id": 81,
+      "date_created": "2021-03-30 8:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 140,
+    "fields": {
+      "title": "Клиника на инкубатор",
+      "user_id": 72,
+      "date_created": "2021-03-30 10:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 141,
+    "fields": {
+      "title": "Эстрадиол Контроль (повтор)",
+      "user_id": 78,
+      "date_created": "2021-03-31 18:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 142,
+    "fields": {
+      "title": "Эстрадиол Реагент (повтор)",
+      "user_id": 78,
+      "date_created": "2021-03-31 18:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 143,
+    "fields": {
+      "title": "Филипс",
+      "user_id": 81,
+      "date_created": "2021-04-07 14:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 144,
+    "fields": {
+      "title": "Перчатки Ньюлайф",
+      "user_id": 73,
+      "date_created": "2021-04-07 16:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 145,
+    "fields": {
+      "title": "AIM-V",
+      "user_id": 82,
+      "date_created": "2021-04-08 9:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 148,
+    "fields": {
+      "title": "ФС2±",
+      "user_id": 73,
+      "date_created": "2021-04-26 13:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 155,
+    "fields": {
+      "title": "Разъяснение по ОКПД2_Лидкор",
+      "user_id": 78,
+      "date_created": "2021-04-29 13:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 159,
+    "fields": {
+      "title": "31078",
+      "user_id": 81,
+      "date_created": "2021-05-11 8:19"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 160,
+    "fields": {
+      "title": "31076",
+      "user_id": 81,
+      "date_created": "2021-05-11 8:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 161,
+    "fields": {
+      "title": "31075",
+      "user_id": 81,
+      "date_created": "2021-05-11 8:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 162,
+    "fields": {
+      "title": "31074",
+      "user_id": 81,
+      "date_created": "2021-05-11 8:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 163,
+    "fields": {
+      "title": "Катетеры для гемодиализа",
+      "user_id": 78,
+      "date_created": "2021-05-11 16:12"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 164,
+    "fields": {
+      "title": "Гемодиализатор кап.VIE-A",
+      "user_id": 78,
+      "date_created": "2021-05-20 16:54"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 165,
+    "fields": {
+      "title": "Катетеры для гемодиализа",
+      "user_id": 78,
+      "date_created": "2021-05-20 18:43"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 166,
+    "fields": {
+      "title": "Перчатки НЛ",
+      "user_id": 73,
+      "date_created": "2021-05-28 15:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 175,
+    "fields": {
+      "title": "Лена 31069",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 176,
+    "fields": {
+      "title": "Лена 31061",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 177,
+    "fields": {
+      "title": "Лена 31065",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 178,
+    "fields": {
+      "title": "Лена 31060",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:19"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 179,
+    "fields": {
+      "title": "Лена 31056",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:19"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 180,
+    "fields": {
+      "title": "Лена 31068",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 181,
+    "fields": {
+      "title": "Лена 31054",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 182,
+    "fields": {
+      "title": "Лена 31067",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 183,
+    "fields": {
+      "title": "Лена 31066",
+      "user_id": 81,
+      "date_created": "2021-06-01 12:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 185,
+    "fields": {
+      "title": "Карбоклир",
+      "user_id": 81,
+      "date_created": "2021-06-03 9:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 189,
+    "fields": {
+      "title": "Тех. Ошибка Инкубатор",
+      "user_id": 72,
+      "date_created": "2021-06-17 9:00"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 190,
+    "fields": {
+      "title": "Биоархив - Термодженкщис, ввоз",
+      "user_id": 78,
+      "date_created": "2021-06-17 13:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 191,
+    "fields": {
+      "title": "Контейнер CASP, ввоз",
+      "user_id": 78,
+      "date_created": "2021-06-17 13:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 192,
+    "fields": {
+      "title": "Кюветы LIAISON, ввоз",
+      "user_id": 78,
+      "date_created": "2021-06-17 13:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 193,
+    "fields": {
+      "title": "FS 630 ввоз",
+      "user_id": 72,
+      "date_created": "2021-06-21 15:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 196,
+    "fields": {
+      "title": "К.г.АВ0 DVI-/DVI+",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 197,
+    "fields": {
+      "title": "К.г.AB0 DVI-/Kell",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 198,
+    "fields": {
+      "title": "К.г.AB0 DVI+/Kell",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 200,
+    "fields": {
+      "title": "К.г.Phenotyping with Kell",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 201,
+    "fields": {
+      "title": "К.г.Phenotyping",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 203,
+    "fields": {
+      "title": "К.г.AHG (IgG+C3d)",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 204,
+    "fields": {
+      "title": "К.г. DAT",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 205,
+    "fields": {
+      "title": "К.г.Neutral",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 206,
+    "fields": {
+      "title": "Н.э.с. RBC A1/B",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 207,
+    "fields": {
+      "title": "Н.э.с. Screen 2",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 208,
+    "fields": {
+      "title": "Н.э.с. RBC Screen 4",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:42"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 209,
+    "fields": {
+      "title": "Н.э.с. Screen 4P",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:44"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 210,
+    "fields": {
+      "title": "Н.э.с. Identi Cell",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:46"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 211,
+    "fields": {
+      "title": "Н.э.с. Screen 3",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:47"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 212,
+    "fields": {
+      "title": "Раствор н.и.с.LISS",
+      "user_id": 78,
+      "date_created": "2021-07-01 13:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 213,
+    "fields": {
+      "title": "Магистрали д/гемодиализа С18",
+      "user_id": 78,
+      "date_created": "2021-07-01 15:51"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 214,
+    "fields": {
+      "title": "Fibroscan 430",
+      "user_id": 78,
+      "date_created": "2021-07-05 15:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 216,
+    "fields": {
+      "title": "ФС 430 мини",
+      "user_id": 72,
+      "date_created": "2021-07-05 16:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 218,
+    "fields": {
+      "title": "STW6810",
+      "user_id": 80,
+      "date_created": "2021-07-14 10:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 219,
+    "fields": {
+      "title": "Устройство STW6810",
+      "user_id": 78,
+      "date_created": "2021-07-14 17:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 220,
+    "fields": {
+      "title": "Набор реагентов Calprotectin",
+      "user_id": 78,
+      "date_created": "2021-07-14 17:09"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 221,
+    "fields": {
+      "title": "Набор реагентов Elastase-1",
+      "user_id": 78,
+      "date_created": "2021-07-14 17:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 222,
+    "fields": {
+      "title": "Набор контр.мат.Elastase-1",
+      "user_id": 78,
+      "date_created": "2021-07-14 17:12"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 223,
+    "fields": {
+      "title": "Буферный раствор",
+      "user_id": 78,
+      "date_created": "2021-07-14 17:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 224,
+    "fields": {
+      "title": "Клиника рексид",
+      "user_id": 72,
+      "date_created": "2021-07-15 12:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 225,
+    "fields": {
+      "title": "Обращение КИ с участием человека",
+      "user_id": 78,
+      "date_created": "2021-07-15 14:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 227,
+    "fields": {
+      "title": "Маке",
+      "user_id": 81,
+      "date_created": "2021-07-22 13:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 228,
+    "fields": {
+      "title": "КГ AB0 DVI-/DVI+",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 229,
+    "fields": {
+      "title": "КГ AB0 DVI- /Kell",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 230,
+    "fields": {
+      "title": "КГ  AB0 VI +/?ell",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 231,
+    "fields": {
+      "title": "КГ Double AB0/DVI+",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:43"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 232,
+    "fields": {
+      "title": "КГ Phenotyping with Kell",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 233,
+    "fields": {
+      "title": "КГ Phenotyping",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:46"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 234,
+    "fields": {
+      "title": "КГ Newborn",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:47"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 235,
+    "fields": {
+      "title": "КГ AHG (IgG+C3d)",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 236,
+    "fields": {
+      "title": "КГ DAT",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 237,
+    "fields": {
+      "title": "КГ Neutral",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 238,
+    "fields": {
+      "title": "НЭС RBC A1/B",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:52"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 239,
+    "fields": {
+      "title": "НЭС Screen 2",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 241,
+    "fields": {
+      "title": "НЭС Screen 4P",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:54"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 242,
+    "fields": {
+      "title": "НЭС Identi Cell",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 243,
+    "fields": {
+      "title": "НЭС Screen 3",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 244,
+    "fields": {
+      "title": "Раствор НИС LISS",
+      "user_id": 78,
+      "date_created": "2021-07-22 15:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 245,
+    "fields": {
+      "title": "НЭС Screen 4",
+      "user_id": 78,
+      "date_created": "2021-07-22 16:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 246,
+    "fields": {
+      "title": "Набор реагентов Progesterone II",
+      "user_id": 78,
+      "date_created": "2021-07-23 15:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 247,
+    "fields": {
+      "title": "Набор контрольных матер. Progesterone II",
+      "user_id": 78,
+      "date_created": "2021-07-23 15:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 248,
+    "fields": {
+      "title": "Шлемы",
+      "user_id": 73,
+      "date_created": "2021-07-24 9:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 249,
+    "fields": {
+      "title": "Магистрали для аппарата Plasauto Sigma",
+      "user_id": 78,
+      "date_created": "2021-07-26 16:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 250,
+    "fields": {
+      "title": "Одежда",
+      "user_id": 73,
+      "date_created": "2021-08-10 11:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 251,
+    "fields": {
+      "title": "Изменить код вида ЛИДКОР",
+      "user_id": 78,
+      "date_created": "2021-08-17 17:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 252,
+    "fields": {
+      "title": "Контуры",
+      "user_id": 73,
+      "date_created": "2021-08-19 17:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 254,
+    "fields": {
+      "title": "Фиксатор головы",
+      "user_id": 73,
+      "date_created": "2021-08-19 17:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 256,
+    "fields": {
+      "title": "Agilis",
+      "user_id": 81,
+      "date_created": "2021-08-26 12:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 258,
+    "fields": {
+      "title": "Периметр",
+      "user_id": 80,
+      "date_created": "2021-09-03 14:00"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 259,
+    "fields": {
+      "title": "Электрокардиограф Cardiofax",
+      "user_id": 80,
+      "date_created": "2021-09-06 12:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 260,
+    "fields": {
+      "title": "Периметр офтальмологический",
+      "user_id": 78,
+      "date_created": "2021-09-07 10:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 261,
+    "fields": {
+      "title": "Электрокардиограф Cardiofax",
+      "user_id": 78,
+      "date_created": "2021-09-07 10:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 262,
+    "fields": {
+      "title": "Фиксатор головы",
+      "user_id": 73,
+      "date_created": "2021-09-07 10:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 264,
+    "fields": {
+      "title": "Биосейф ввоз",
+      "user_id": 72,
+      "date_created": "2021-09-13 9:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 265,
+    "fields": {
+      "title": "Электрокардиограф ввоз",
+      "user_id": 72,
+      "date_created": "2021-09-13 9:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 266,
+    "fields": {
+      "title": "Биошур",
+      "user_id": 82,
+      "date_created": "2021-09-17 18:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 270,
+    "fields": {
+      "title": "Компл. магистралей д/очистки крови (FGM)",
+      "user_id": 78,
+      "date_created": "2021-09-23 18:44"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 271,
+    "fields": {
+      "title": "Комплект магистралей для очистки крови",
+      "user_id": 80,
+      "date_created": "2021-09-24 9:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 272,
+    "fields": {
+      "title": "Электрод Conox",
+      "user_id": 74,
+      "date_created": "2021-09-28 11:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 273,
+    "fields": {
+      "title": "Контуры многоразовые",
+      "user_id": 73,
+      "date_created": "2021-09-30 7:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 274,
+    "fields": {
+      "title": "Ларингеальные маски",
+      "user_id": 73,
+      "date_created": "2021-09-30 14:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 275,
+    "fields": {
+      "title": "Анализатор Across",
+      "user_id": 79,
+      "date_created": "2021-10-04 10:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 276,
+    "fields": {
+      "title": "Считыватель",
+      "user_id": 79,
+      "date_created": "2021-10-04 10:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 277,
+    "fields": {
+      "title": "Инкубатор",
+      "user_id": 79,
+      "date_created": "2021-10-04 10:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 278,
+    "fields": {
+      "title": "Центрифуга",
+      "user_id": 79,
+      "date_created": "2021-10-04 10:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 279,
+    "fields": {
+      "title": "Аппарат Leadmelt",
+      "user_id": 78,
+      "date_created": "2021-10-04 13:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 280,
+    "fields": {
+      "title": "Пульмодин Маски",
+      "user_id": 73,
+      "date_created": "2021-10-04 15:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 281,
+    "fields": {
+      "title": "РУ ФСЗ 2012/11867",
+      "user_id": 80,
+      "date_created": "2021-10-05 9:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 282,
+    "fields": {
+      "title": "РУ ФСЗ 2012/12139",
+      "user_id": 80,
+      "date_created": "2021-10-05 9:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 286,
+    "fields": {
+      "title": "Пульмодин ТТ",
+      "user_id": 73,
+      "date_created": "2021-10-05 17:51"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 287,
+    "fields": {
+      "title": "Пульмодин НИВ",
+      "user_id": 73,
+      "date_created": "2021-10-05 17:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 288,
+    "fields": {
+      "title": "Электрокардиограф",
+      "user_id": 80,
+      "date_created": "2021-10-06 10:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 289,
+    "fields": {
+      "title": "Лимфатач",
+      "user_id": 79,
+      "date_created": "2021-10-11 16:12"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 290,
+    "fields": {
+      "title": "Контроль кормей",
+      "user_id": 82,
+      "date_created": "2021-10-12 22:09"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 291,
+    "fields": {
+      "title": "Калибратор кормей",
+      "user_id": 82,
+      "date_created": "2021-10-12 22:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 292,
+    "fields": {
+      "title": "Хартманн",
+      "user_id": 75,
+      "date_created": "2021-10-13 20:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 293,
+    "fields": {
+      "title": "Тренажер дыхательный",
+      "user_id": 73,
+      "date_created": "2021-10-15 15:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 294,
+    "fields": {
+      "title": "Сирометр",
+      "user_id": 73,
+      "date_created": "2021-10-15 15:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 295,
+    "fields": {
+      "title": "Аппарат LymphaTouch",
+      "user_id": 78,
+      "date_created": "2021-10-18 11:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 297,
+    "fields": {
+      "title": "Ларинг маски и ТТ",
+      "user_id": 73,
+      "date_created": "2021-10-18 13:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 299,
+    "fields": {
+      "title": "Мониторы",
+      "user_id": 73,
+      "date_created": "2021-10-27 14:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 301,
+    "fields": {
+      "title": "Маски Пневмо",
+      "user_id": 73,
+      "date_created": "2021-10-27 14:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 303,
+    "fields": {
+      "title": "Одноразовые Криейт",
+      "user_id": 73,
+      "date_created": "2021-10-28 10:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 304,
+    "fields": {
+      "title": "AV18",
+      "user_id": 72,
+      "date_created": "2021-10-28 16:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 306,
+    "fields": {
+      "title": "Vivano Canister",
+      "user_id": 84,
+      "date_created": "2021-11-07 12:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 307,
+    "fields": {
+      "title": "Манжета",
+      "user_id": 85,
+      "date_created": "2021-11-08 9:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 308,
+    "fields": {
+      "title": "Прокладки урологические",
+      "user_id": 85,
+      "date_created": "2021-11-08 9:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 309,
+    "fields": {
+      "title": "Vivano Tec Pro",
+      "user_id": 84,
+      "date_created": "2021-11-08 9:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 310,
+    "fields": {
+      "title": "Vivano Abdominal kit",
+      "user_id": 84,
+      "date_created": "2021-11-08 9:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 311,
+    "fields": {
+      "title": "Vivano Foam kit",
+      "user_id": 84,
+      "date_created": "2021-11-08 9:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 312,
+    "fields": {
+      "title": "Vivano Tec Port",
+      "user_id": 84,
+      "date_created": "2021-11-08 9:59"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 313,
+    "fields": {
+      "title": "Vivano Med Foam",
+      "user_id": 84,
+      "date_created": "2021-11-08 10:00"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 314,
+    "fields": {
+      "title": "Molicare Premium Pants",
+      "user_id": 84,
+      "date_created": "2021-11-08 10:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 315,
+    "fields": {
+      "title": "Molicare Premium pads",
+      "user_id": 84,
+      "date_created": "2021-11-08 10:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 316,
+    "fields": {
+      "title": "Molicare Premium fixpants",
+      "user_id": 84,
+      "date_created": "2021-11-08 10:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 317,
+    "fields": {
+      "title": "Сухожаровые сушильные шкафы FN",
+      "user_id": 83,
+      "date_created": "2021-11-08 10:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 318,
+    "fields": {
+      "title": "Инкубаторы EN",
+      "user_id": 83,
+      "date_created": "2021-11-08 10:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 319,
+    "fields": {
+      "title": "СтерилизаторыNC 40 90",
+      "user_id": 83,
+      "date_created": "2021-11-08 10:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 320,
+    "fields": {
+      "title": "Ввоз биопалитра",
+      "user_id": 72,
+      "date_created": "2021-11-08 11:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 321,
+    "fields": {
+      "title": "XARIO 100G",
+      "user_id": 89,
+      "date_created": "2021-11-08 13:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 322,
+    "fields": {
+      "title": "FLASH-3",
+      "user_id": 89,
+      "date_created": "2021-11-08 13:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 323,
+    "fields": {
+      "title": "XARIO 100",
+      "user_id": 89,
+      "date_created": "2021-11-08 13:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 324,
+    "fields": {
+      "title": "SKD-A",
+      "user_id": 89,
+      "date_created": "2021-11-08 13:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 325,
+    "fields": {
+      "title": "РИМ-Флюоро",
+      "user_id": 89,
+      "date_created": "2021-11-08 13:32"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 326,
+    "fields": {
+      "title": "Имплантат внутридермальный Philos",
+      "user_id": 89,
+      "date_created": "2021-11-08 13:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 327,
+    "fields": {
+      "title": "Морозилки DF FR",
+      "user_id": 83,
+      "date_created": "2021-11-08 14:47"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 328,
+    "fields": {
+      "title": "Инкубатор EC160",
+      "user_id": 83,
+      "date_created": "2021-11-08 14:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 330,
+    "fields": {
+      "title": "Advisor",
+      "user_id": 81,
+      "date_created": "2021-11-10 12:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 331,
+    "fields": {
+      "title": "Canister",
+      "user_id": 90,
+      "date_created": "2021-11-11 9:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 332,
+    "fields": {
+      "title": "Накладки Philips",
+      "user_id": 90,
+      "date_created": "2021-11-11 9:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 333,
+    "fields": {
+      "title": "Tec Pro",
+      "user_id": 90,
+      "date_created": "2021-11-11 9:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 337,
+    "fields": {
+      "title": "флакон БА",
+      "user_id": 92,
+      "date_created": "2021-11-11 17:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 338,
+    "fields": {
+      "title": "анализатор БА",
+      "user_id": 92,
+      "date_created": "2021-11-11 17:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 339,
+    "fields": {
+      "title": "Набор Foam Kit",
+      "user_id": 90,
+      "date_created": "2021-11-11 18:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 340,
+    "fields": {
+      "title": "Abdominal",
+      "user_id": 90,
+      "date_created": "2021-11-11 18:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 341,
+    "fields": {
+      "title": "Губка",
+      "user_id": 90,
+      "date_created": "2021-11-11 18:04"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 343,
+    "fields": {
+      "title": "Порт",
+      "user_id": 90,
+      "date_created": "2021-11-11 18:06"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 344,
+    "fields": {
+      "title": "Силуэт",
+      "user_id": 93,
+      "date_created": "2021-11-12 20:05"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 345,
+    "fields": {
+      "title": "Иммукор",
+      "user_id": 72,
+      "date_created": "2021-11-12 20:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 346,
+    "fields": {
+      "title": "Аппарат косметологический Endospheres Therapy",
+      "user_id": 89,
+      "date_created": "2021-11-17 9:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 347,
+    "fields": {
+      "title": "Комплекс программно-аппаратный «ВОЛАТ»",
+      "user_id": 89,
+      "date_created": "2021-11-17 9:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 348,
+    "fields": {
+      "title": "Pulsar",
+      "user_id": 74,
+      "date_created": "2021-11-17 15:51"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 349,
+    "fields": {
+      "title": "Бранолинд Н",
+      "user_id": 84,
+      "date_created": "2021-11-22 9:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 352,
+    "fields": {
+      "title": "Мат.расходные для Sepax",
+      "user_id": 78,
+      "date_created": "2021-11-23 10:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 353,
+    "fields": {
+      "title": "Материалы расходные",
+      "user_id": 80,
+      "date_created": "2021-11-23 11:42"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 354,
+    "fields": {
+      "title": "МБ_одеяла",
+      "user_id": 96,
+      "date_created": "2021-11-23 12:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 355,
+    "fields": {
+      "title": "Контроль микроальбумина",
+      "user_id": 97,
+      "date_created": "2021-11-23 14:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 356,
+    "fields": {
+      "title": "Калибратор микроальбумина",
+      "user_id": 97,
+      "date_created": "2021-11-23 14:59"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 357,
+    "fields": {
+      "title": "АвантМед ланцеты",
+      "user_id": 95,
+      "date_created": "2021-11-23 15:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 358,
+    "fields": {
+      "title": "Handy Ray",
+      "user_id": 95,
+      "date_created": "2021-11-23 15:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 359,
+    "fields": {
+      "title": "Багира Dianatal",
+      "user_id": 95,
+      "date_created": "2021-11-23 15:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 360,
+    "fields": {
+      "title": "Орёл Кассета",
+      "user_id": 95,
+      "date_created": "2021-11-23 15:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 361,
+    "fields": {
+      "title": "Укладки",
+      "user_id": 95,
+      "date_created": "2021-11-23 15:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 362,
+    "fields": {
+      "title": "Инструменты медицинские зондирующий, будирующие",
+      "user_id": 98,
+      "date_created": "2021-11-23 16:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 363,
+    "fields": {
+      "title": "Набор для эмболизации сосудов КАП",
+      "user_id": 98,
+      "date_created": "2021-11-23 16:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 364,
+    "fields": {
+      "title": "Ввоз AV18",
+      "user_id": 72,
+      "date_created": "2021-11-23 17:31"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 366,
+    "fields": {
+      "title": "Диаком-Рэй",
+      "user_id": 99,
+      "date_created": "2021-11-23 18:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 367,
+    "fields": {
+      "title": "Флюоро",
+      "user_id": 99,
+      "date_created": "2021-11-23 18:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 368,
+    "fields": {
+      "title": "Миллениум",
+      "user_id": 99,
+      "date_created": "2021-11-23 18:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 369,
+    "fields": {
+      "title": "Диаком-Рей",
+      "user_id": 100,
+      "date_created": "2021-11-24 9:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 370,
+    "fields": {
+      "title": "Орторент ПРМ-01 ВИРД",
+      "user_id": 95,
+      "date_created": "2021-11-24 9:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 371,
+    "fields": {
+      "title": "ИталКонсалт_Аппарат косметалогический",
+      "user_id": 96,
+      "date_created": "2021-11-24 13:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 372,
+    "fields": {
+      "title": "Эпикрист_Рециркулятор",
+      "user_id": 96,
+      "date_created": "2021-11-24 13:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 373,
+    "fields": {
+      "title": "Entrant 1",
+      "user_id": 74,
+      "date_created": "2021-11-24 15:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 374,
+    "fields": {
+      "title": "Entrant 2",
+      "user_id": 74,
+      "date_created": "2021-11-24 15:32"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 375,
+    "fields": {
+      "title": "Entrant 3",
+      "user_id": 74,
+      "date_created": "2021-11-24 15:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 376,
+    "fields": {
+      "title": "Ввоз",
+      "user_id": 83,
+      "date_created": "2021-11-24 15:52"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 377,
+    "fields": {
+      "title": "Rhein 83",
+      "user_id": 102,
+      "date_created": "2021-11-25 11:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 379,
+    "fields": {
+      "title": "Диском-Нео",
+      "user_id": 99,
+      "date_created": "2021-11-29 10:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 380,
+    "fields": {
+      "title": "Диаком-Нео",
+      "user_id": 100,
+      "date_created": "2021-11-29 11:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 381,
+    "fields": {
+      "title": "Комплекс реабилитационный электронно-механический терапевтический OMEGO",
+      "user_id": 103,
+      "date_created": "2021-11-29 18:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 382,
+    "fields": {
+      "title": "Фогт_Канюли",
+      "user_id": 96,
+      "date_created": "2021-12-01 10:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 384,
+    "fields": {
+      "title": "Считыватель",
+      "user_id": 79,
+      "date_created": "2021-12-01 11:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 385,
+    "fields": {
+      "title": "Анализатор",
+      "user_id": 79,
+      "date_created": "2021-12-01 11:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 386,
+    "fields": {
+      "title": "Aplio a",
+      "user_id": 89,
+      "date_created": "2021-12-01 12:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 387,
+    "fields": {
+      "title": "Бахилы медицинские",
+      "user_id": 89,
+      "date_created": "2021-12-01 12:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 388,
+    "fields": {
+      "title": "Аспирационная канюля Voqt Medical",
+      "user_id": 89,
+      "date_created": "2021-12-01 12:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 390,
+    "fields": {
+      "title": "Орторент/Катэрвил РЗН/МПТ",
+      "user_id": 95,
+      "date_created": "2021-12-02 12:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 391,
+    "fields": {
+      "title": "АйСиЭл Техно 1 подача",
+      "user_id": 95,
+      "date_created": "2021-12-04 17:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 392,
+    "fields": {
+      "title": "Криосет",
+      "user_id": 104,
+      "date_created": "2021-12-06 9:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 395,
+    "fields": {
+      "title": "Мед про",
+      "user_id": 72,
+      "date_created": "2021-12-08 11:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 396,
+    "fields": {
+      "title": "Флаконы",
+      "user_id": 91,
+      "date_created": "2021-12-08 14:44"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 397,
+    "fields": {
+      "title": "Анализатор BA",
+      "user_id": 91,
+      "date_created": "2021-12-08 14:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 398,
+    "fields": {
+      "title": "Набор HP",
+      "user_id": 91,
+      "date_created": "2021-12-08 14:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 399,
+    "fields": {
+      "title": "Система HIFU",
+      "user_id": 91,
+      "date_created": "2021-12-08 14:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 400,
+    "fields": {
+      "title": "Гель",
+      "user_id": 91,
+      "date_created": "2021-12-08 14:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 402,
+    "fields": {
+      "title": "Вертикальные стерилизаторы",
+      "user_id": 105,
+      "date_created": "2021-12-09 12:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 406,
+    "fields": {
+      "title": "HP",
+      "user_id": 92,
+      "date_created": "2021-12-09 15:47"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 407,
+    "fields": {
+      "title": "Набор реагентов по430",
+      "user_id": 78,
+      "date_created": "2021-12-09 16:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 409,
+    "fields": {
+      "title": "АРС-Флюоро",
+      "user_id": 99,
+      "date_created": "2021-12-10 13:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 410,
+    "fields": {
+      "title": "Сепаратор компонентов плазмы",
+      "user_id": 80,
+      "date_created": "2021-12-10 13:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 412,
+    "fields": {
+      "title": "Гель",
+      "user_id": 91,
+      "date_created": "2021-12-10 15:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 415,
+    "fields": {
+      "title": "Сепаратор комп.плазмы",
+      "user_id": 78,
+      "date_created": "2021-12-10 17:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 416,
+    "fields": {
+      "title": "Арс-флюоро",
+      "user_id": 100,
+      "date_created": "2021-12-10 17:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 418,
+    "fields": {
+      "title": "Accents",
+      "user_id": 97,
+      "date_created": "2021-12-13 15:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 422,
+    "fields": {
+      "title": "Микроскоп БЛ",
+      "user_id": 92,
+      "date_created": "2021-12-16 10:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 423,
+    "fields": {
+      "title": "Микроскоп",
+      "user_id": 91,
+      "date_created": "2021-12-16 14:51"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 424,
+    "fields": {
+      "title": "Mythic60",
+      "user_id": 98,
+      "date_created": "2021-12-17 16:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 425,
+    "fields": {
+      "title": "АйСиЭл Техно Вторая",
+      "user_id": 95,
+      "date_created": "2021-12-18 16:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 426,
+    "fields": {
+      "title": "Mythic 60",
+      "user_id": 97,
+      "date_created": "2021-12-19 17:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 427,
+    "fields": {
+      "title": "Система компьютерной томографии Aquilion Exceed LB",
+      "user_id": 89,
+      "date_created": "2021-12-21 8:59"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 428,
+    "fields": {
+      "title": "Combolab",
+      "user_id": 81,
+      "date_created": "2021-12-21 15:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 429,
+    "fields": {
+      "title": "Mac-Lab",
+      "user_id": 81,
+      "date_created": "2021-12-21 15:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 430,
+    "fields": {
+      "title": "Cardiolab",
+      "user_id": 81,
+      "date_created": "2021-12-21 15:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 432,
+    "fields": {
+      "title": "Секвенатор NextSeqTM 550 Dx",
+      "user_id": 89,
+      "date_created": "2021-12-22 11:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 433,
+    "fields": {
+      "title": "Набор реагентов ИВД NextSeq 550 Dx 75 циклов",
+      "user_id": 89,
+      "date_created": "2021-12-22 11:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 434,
+    "fields": {
+      "title": "Станция дозирующая автоматическая VeriSeq NIPT",
+      "user_id": 89,
+      "date_created": "2021-12-22 11:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 435,
+    "fields": {
+      "title": "Система ИВД NIPT",
+      "user_id": 89,
+      "date_created": "2021-12-22 11:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 436,
+    "fields": {
+      "title": "Navi-60",
+      "user_id": 108,
+      "date_created": "2021-12-22 12:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 437,
+    "fields": {
+      "title": "HP-80",
+      "user_id": 108,
+      "date_created": "2021-12-22 12:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 438,
+    "fields": {
+      "title": "Molicare Premium pads",
+      "user_id": 84,
+      "date_created": "2021-12-22 14:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 449,
+    "fields": {
+      "title": "Аппарат слуховой внутриканальный Geno",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:07"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 450,
+    "fields": {
+      "title": "Аппарат ИВЛ WM120- TD",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 451,
+    "fields": {
+      "title": "Аппарат Accent",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 452,
+    "fields": {
+      "title": "Аппарат слуховой заушный OPN",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:12"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 453,
+    "fields": {
+      "title": "Аппарат слуховой заушный GENO",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 454,
+    "fields": {
+      "title": "Аппарат заушный Hearlink",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 455,
+    "fields": {
+      "title": "Аппарат с приёмником в ухе Hearlink",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 456,
+    "fields": {
+      "title": "Аппарат внутриканальный Hearlink",
+      "user_id": 109,
+      "date_created": "2021-12-24 15:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 457,
+    "fields": {
+      "title": "Sepax 2",
+      "user_id": 80,
+      "date_created": "2021-12-27 9:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 458,
+    "fields": {
+      "title": "Naniwa",
+      "user_id": 80,
+      "date_created": "2021-12-27 9:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 459,
+    "fields": {
+      "title": "BioArchive",
+      "user_id": 80,
+      "date_created": "2021-12-27 9:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 460,
+    "fields": {
+      "title": "Baha6",
+      "user_id": 98,
+      "date_created": "2021-12-27 15:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 462,
+    "fields": {
+      "title": "Адаптер Miktell",
+      "user_id": 101,
+      "date_created": "2021-12-27 16:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 465,
+    "fields": {
+      "title": "Комплекс BioArchive",
+      "user_id": 78,
+      "date_created": "2021-12-27 20:52"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 466,
+    "fields": {
+      "title": "Аппарат Sepax-S-100",
+      "user_id": 78,
+      "date_created": "2021-12-27 20:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 468,
+    "fields": {
+      "title": "Монитор",
+      "user_id": 108,
+      "date_created": "2021-12-28 16:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 471,
+    "fields": {
+      "title": "Сдс волат",
+      "user_id": 110,
+      "date_created": "2021-12-28 16:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 472,
+    "fields": {
+      "title": "Кровать медицинская электрическая функциональная модель SKD-A в составе с принадлежностями",
+      "user_id": 111,
+      "date_created": "2021-12-28 16:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 473,
+    "fields": {
+      "title": "Кэнон",
+      "user_id": 110,
+      "date_created": "2021-12-28 16:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 474,
+    "fields": {
+      "title": "Клапан",
+      "user_id": 74,
+      "date_created": "2021-12-28 21:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 484,
+    "fields": {
+      "title": "Аппарат Супертрак",
+      "user_id": 112,
+      "date_created": "2021-12-29 11:04"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 485,
+    "fields": {
+      "title": "Ввоз Медпро",
+      "user_id": 72,
+      "date_created": "2021-12-29 13:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 486,
+    "fields": {
+      "title": "Coda aero",
+      "user_id": 74,
+      "date_created": "2021-12-29 18:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 489,
+    "fields": {
+      "title": "Jenny",
+      "user_id": 74,
+      "date_created": "2021-12-29 18:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 490,
+    "fields": {
+      "title": "Ультрафильтры",
+      "user_id": 81,
+      "date_created": "2021-12-30 8:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 493,
+    "fields": {
+      "title": "Протетика НСТ",
+      "user_id": 101,
+      "date_created": "2022-01-05 18:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 498,
+    "fields": {
+      "title": "ЭРСТВАК",
+      "user_id": 90,
+      "date_created": "2022-01-10 10:19"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 504,
+    "fields": {
+      "title": "ILS",
+      "user_id": 98,
+      "date_created": "2022-01-10 10:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 505,
+    "fields": {
+      "title": "Синоптофор",
+      "user_id": 93,
+      "date_created": "2022-01-10 10:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 506,
+    "fields": {
+      "title": "KATANA Zirconia",
+      "user_id": 93,
+      "date_created": "2022-01-10 10:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 507,
+    "fields": {
+      "title": "Аппарат хирургический Acculan 4 в вариантах исполнения c принадлежностями",
+      "user_id": 111,
+      "date_created": "2022-01-10 12:12"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 508,
+    "fields": {
+      "title": "Инструменты хирургические для аппарата хирургического Acculan 4, многоразовые стерильные в вариантах исполнения",
+      "user_id": 111,
+      "date_created": "2022-01-10 12:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 509,
+    "fields": {
+      "title": "Инструменты хирургические для аппарата хирургического Acculan 4, одноразового применения стерильные в вариантах исполнения, с принадлежностями",
+      "user_id": 111,
+      "date_created": "2022-01-10 12:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 510,
+    "fields": {
+      "title": "Инструменты хирургические для аппарата хирургического Acculan 4, многоразовые нестерильные в вариантах исполнения",
+      "user_id": 111,
+      "date_created": "2022-01-10 12:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 511,
+    "fields": {
+      "title": "Насадки хирургические механизированные для аппарата хирургического Acculan 4, в вариантах исполнения с принадлежностями",
+      "user_id": 111,
+      "date_created": "2022-01-10 12:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 512,
+    "fields": {
+      "title": "Молоток неврологический",
+      "user_id": 109,
+      "date_created": "2022-01-10 13:59"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 513,
+    "fields": {
+      "title": "Аппарат слуховой с приёмником Oticon",
+      "user_id": 109,
+      "date_created": "2022-01-10 14:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 514,
+    "fields": {
+      "title": "Инкубатор тех ошибка",
+      "user_id": 79,
+      "date_created": "2022-01-11 12:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 515,
+    "fields": {
+      "title": "ИВЛ BPAP",
+      "user_id": 89,
+      "date_created": "2022-01-12 9:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 516,
+    "fields": {
+      "title": "Филлер LONG LASTING",
+      "user_id": 89,
+      "date_created": "2022-01-12 9:59"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 519,
+    "fields": {
+      "title": "Катетеры",
+      "user_id": 80,
+      "date_created": "2022-01-12 11:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 521,
+    "fields": {
+      "title": "Система CV",
+      "user_id": 92,
+      "date_created": "2022-01-12 11:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 522,
+    "fields": {
+      "title": "FGM",
+      "user_id": 72,
+      "date_created": "2022-01-12 18:00"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 523,
+    "fields": {
+      "title": "Metrovision",
+      "user_id": 72,
+      "date_created": "2022-01-13 14:52"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 527,
+    "fields": {
+      "title": "УЗИ LOGIQ P9 Новикова",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:43"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 528,
+    "fields": {
+      "title": "Аппарат Acculan Гузий",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:44"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 529,
+    "fields": {
+      "title": "Инструменты многораз. стерил. Гузий",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 530,
+    "fields": {
+      "title": "Инструменты однораз. Стерил Гузий",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:46"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 531,
+    "fields": {
+      "title": "Инструменты многораз. нестерил Гузий",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 532,
+    "fields": {
+      "title": "Насадки Acculan Гузий",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 533,
+    "fields": {
+      "title": "Камера дезинф. Фармстил",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 534,
+    "fields": {
+      "title": "Клипса TriClip",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 535,
+    "fields": {
+      "title": "Наконечники пластиковые в штативах Воробьева",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:51"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 536,
+    "fields": {
+      "title": "Материал шовный Оптилен Новикова",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 537,
+    "fields": {
+      "title": "Комплекс рентгеновский РИМ Апросина",
+      "user_id": 89,
+      "date_created": "2022-01-13 15:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 538,
+    "fields": {
+      "title": "С-дуга РИМ",
+      "user_id": 99,
+      "date_created": "2022-01-14 12:00"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 540,
+    "fields": {
+      "title": "2008/01098",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:19"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 541,
+    "fields": {
+      "title": "2008/01099",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 542,
+    "fields": {
+      "title": "2008/02183",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 543,
+    "fields": {
+      "title": "2009/03796",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 544,
+    "fields": {
+      "title": "2009/04747",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 545,
+    "fields": {
+      "title": "2009/04954",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 546,
+    "fields": {
+      "title": "2009/04954",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 547,
+    "fields": {
+      "title": "2009/04994",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 548,
+    "fields": {
+      "title": "2009/05288",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 549,
+    "fields": {
+      "title": "2011/10656",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 550,
+    "fields": {
+      "title": "2012/12490",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 551,
+    "fields": {
+      "title": "2012/13524",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 552,
+    "fields": {
+      "title": "2014/1906",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 553,
+    "fields": {
+      "title": "2014/1908",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 554,
+    "fields": {
+      "title": "2014/1910",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 555,
+    "fields": {
+      "title": "2015/3422",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 556,
+    "fields": {
+      "title": "2015/3431",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 557,
+    "fields": {
+      "title": "2015/3464",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 558,
+    "fields": {
+      "title": "2015/3487",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 559,
+    "fields": {
+      "title": "2015/3098",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 560,
+    "fields": {
+      "title": "2015/3465",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 561,
+    "fields": {
+      "title": "2008/01339",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 562,
+    "fields": {
+      "title": "SSU-2",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 563,
+    "fields": {
+      "title": "nCare",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 564,
+    "fields": {
+      "title": "96302",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 565,
+    "fields": {
+      "title": "Endocuff",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 566,
+    "fields": {
+      "title": "Orbeye",
+      "user_id": 113,
+      "date_created": "2022-01-14 15:42"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 571,
+    "fields": {
+      "title": "Луна",
+      "user_id": 113,
+      "date_created": "2022-01-15 10:00"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 572,
+    "fields": {
+      "title": "Хиро",
+      "user_id": 113,
+      "date_created": "2022-01-15 10:01"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 573,
+    "fields": {
+      "title": "Фор",
+      "user_id": 113,
+      "date_created": "2022-01-15 10:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 574,
+    "fields": {
+      "title": "ESG-410",
+      "user_id": 114,
+      "date_created": "2022-01-17 10:42"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 575,
+    "fields": {
+      "title": "Oes Elite",
+      "user_id": 114,
+      "date_created": "2022-01-17 10:43"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 576,
+    "fields": {
+      "title": "TC-C3/C4",
+      "user_id": 114,
+      "date_created": "2022-01-17 10:46"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 577,
+    "fields": {
+      "title": "USG-410",
+      "user_id": 114,
+      "date_created": "2022-01-17 10:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 578,
+    "fields": {
+      "title": "WM-NP3",
+      "user_id": 114,
+      "date_created": "2022-01-17 10:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 579,
+    "fields": {
+      "title": "BF-1100",
+      "user_id": 114,
+      "date_created": "2022-01-17 10:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 587,
+    "fields": {
+      "title": "Аудиометр KBV Porto",
+      "user_id": 95,
+      "date_created": "2022-01-18 10:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 588,
+    "fields": {
+      "title": "Эбботт_ТриКлип",
+      "user_id": 96,
+      "date_created": "2022-01-18 14:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 589,
+    "fields": {
+      "title": "DIO Implant System",
+      "user_id": 95,
+      "date_created": "2022-01-20 11:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 590,
+    "fields": {
+      "title": "Мед Авангард -2- подача",
+      "user_id": 95,
+      "date_created": "2022-01-20 12:04"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 591,
+    "fields": {
+      "title": "DIO материалы",
+      "user_id": 95,
+      "date_created": "2022-01-20 12:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 592,
+    "fields": {
+      "title": "Датчик надежда",
+      "user_id": 74,
+      "date_created": "2022-01-20 12:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 593,
+    "fields": {
+      "title": "Датчик Эбботт",
+      "user_id": 116,
+      "date_created": "2022-01-20 12:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 594,
+    "fields": {
+      "title": "Окклюдер Эбботт",
+      "user_id": 116,
+      "date_created": "2022-01-20 12:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 595,
+    "fields": {
+      "title": "Сканер Эбботт",
+      "user_id": 116,
+      "date_created": "2022-01-20 12:19"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 596,
+    "fields": {
+      "title": "Катетер Therapy",
+      "user_id": 116,
+      "date_created": "2022-01-20 12:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 597,
+    "fields": {
+      "title": "Комплект Amicore",
+      "user_id": 74,
+      "date_created": "2022-01-21 11:42"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 598,
+    "fields": {
+      "title": "Система Amicore",
+      "user_id": 74,
+      "date_created": "2022-01-21 11:43"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 599,
+    "fields": {
+      "title": "Имтэк антиген",
+      "user_id": 82,
+      "date_created": "2022-01-21 14:07"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 602,
+    "fields": {
+      "title": "ЭлТИ Титанелл",
+      "user_id": 95,
+      "date_created": "2022-01-24 23:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 603,
+    "fields": {
+      "title": "Millennium",
+      "user_id": 117,
+      "date_created": "2022-01-26 10:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 604,
+    "fields": {
+      "title": "Лидмелт",
+      "user_id": 104,
+      "date_created": "2022-01-27 17:09"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 605,
+    "fields": {
+      "title": "СПКК",
+      "user_id": 104,
+      "date_created": "2022-01-27 17:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 606,
+    "fields": {
+      "title": "Штанишки",
+      "user_id": 118,
+      "date_created": "2022-01-27 17:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 607,
+    "fields": {
+      "title": "Микроигольчатый аппарат",
+      "user_id": 118,
+      "date_created": "2022-01-27 18:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 608,
+    "fields": {
+      "title": "Микроскоп",
+      "user_id": 118,
+      "date_created": "2022-01-27 18:10"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 609,
+    "fields": {
+      "title": "Дефибриллятор",
+      "user_id": 118,
+      "date_created": "2022-01-27 18:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 610,
+    "fields": {
+      "title": "Плоскопанельный детектор",
+      "user_id": 118,
+      "date_created": "2022-01-27 18:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 612,
+    "fields": {
+      "title": "Ортософт ВИРД Хрящ",
+      "user_id": 95,
+      "date_created": "2022-01-28 14:51"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 613,
+    "fields": {
+      "title": "Thermobrite",
+      "user_id": 120,
+      "date_created": "2022-02-03 12:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 614,
+    "fields": {
+      "title": "Акватайзер",
+      "user_id": 112,
+      "date_created": "2022-02-03 17:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 615,
+    "fields": {
+      "title": "Клапан Мастерс",
+      "user_id": 116,
+      "date_created": "2022-02-05 20:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 616,
+    "fields": {
+      "title": "Клапан Мастерс",
+      "user_id": 116,
+      "date_created": "2022-02-05 20:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 617,
+    "fields": {
+      "title": "Лидкор -измен.кода вида Электрозапаиватель",
+      "user_id": 78,
+      "date_created": "2022-02-09 9:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 618,
+    "fields": {
+      "title": "Штрауманн Ортопедия",
+      "user_id": 90,
+      "date_created": "2022-02-09 11:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 619,
+    "fields": {
+      "title": "Стентекс VIVO Isar",
+      "user_id": 95,
+      "date_created": "2022-02-09 14:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 620,
+    "fields": {
+      "title": "MG Latex Standard",
+      "user_id": 80,
+      "date_created": "2022-02-11 12:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 621,
+    "fields": {
+      "title": "Манжета Tensoval",
+      "user_id": 90,
+      "date_created": "2022-02-16 11:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 622,
+    "fields": {
+      "title": "CF-HQ1100",
+      "user_id": 115,
+      "date_created": "2022-02-16 16:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 623,
+    "fields": {
+      "title": "CF-EZ1500",
+      "user_id": 115,
+      "date_created": "2022-02-16 16:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 625,
+    "fields": {
+      "title": "GIF-EZ1500",
+      "user_id": 115,
+      "date_created": "2022-02-16 16:05"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 627,
+    "fields": {
+      "title": "Генотек РНК 430",
+      "user_id": 82,
+      "date_created": "2022-02-16 18:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 629,
+    "fields": {
+      "title": "Анализатор",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 631,
+    "fields": {
+      "title": "Кювета",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 632,
+    "fields": {
+      "title": "Центрифуга",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 633,
+    "fields": {
+      "title": "50-60 узи",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 634,
+    "fields": {
+      "title": "Датчики",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 635,
+    "fields": {
+      "title": "Пробирки",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:27"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 636,
+    "fields": {
+      "title": "Hm70 Eva",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 637,
+    "fields": {
+      "title": "E-aspect -по",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 638,
+    "fields": {
+      "title": "Пьезо",
+      "user_id": 121,
+      "date_created": "2022-02-17 14:29"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 639,
+    "fields": {
+      "title": "Н-р Контрольных материалов Estradiol",
+      "user_id": 78,
+      "date_created": "2022-02-17 15:28"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 640,
+    "fields": {
+      "title": "Катетеры д/гемодиализа Joline",
+      "user_id": 78,
+      "date_created": "2022-02-17 16:06"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 641,
+    "fields": {
+      "title": "Н-р реагентов Estradiol",
+      "user_id": 78,
+      "date_created": "2022-02-17 16:09"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 642,
+    "fields": {
+      "title": "Анализатор sciREADER CL2",
+      "user_id": 78,
+      "date_created": "2022-02-17 16:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 644,
+    "fields": {
+      "title": "Игла фистульная",
+      "user_id": 78,
+      "date_created": "2022-02-17 16:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 645,
+    "fields": {
+      "title": "Кюветы LIAISON XL",
+      "user_id": 78,
+      "date_created": "2022-02-17 16:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 648,
+    "fields": {
+      "title": "Нить Дефинис",
+      "user_id": 118,
+      "date_created": "2022-02-17 16:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 650,
+    "fields": {
+      "title": "Система доставки лигатур Аксилен",
+      "user_id": 110,
+      "date_created": "2022-02-18 12:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 651,
+    "fields": {
+      "title": "Камера дезинфекционная паровая ФАРМСТИЛ",
+      "user_id": 110,
+      "date_created": "2022-02-18 12:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 652,
+    "fields": {
+      "title": "Nails",
+      "user_id": 98,
+      "date_created": "2022-02-18 15:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 653,
+    "fields": {
+      "title": "Анализатор CL2XL",
+      "user_id": 79,
+      "date_created": "2022-02-21 9:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 654,
+    "fields": {
+      "title": "Теренва",
+      "user_id": 90,
+      "date_created": "2022-02-24 11:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 656,
+    "fields": {
+      "title": "Детектор",
+      "user_id": 93,
+      "date_created": "2022-02-28 10:05"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 657,
+    "fields": {
+      "title": "Дефибриллятор",
+      "user_id": 93,
+      "date_created": "2022-02-28 10:05"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 658,
+    "fields": {
+      "title": "ЭлТИ Шёлк",
+      "user_id": 95,
+      "date_created": "2022-03-03 14:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 659,
+    "fields": {
+      "title": "Укладки 2 подача",
+      "user_id": 95,
+      "date_created": "2022-03-05 11:07"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 660,
+    "fields": {
+      "title": "Укладки 2 подача",
+      "user_id": 95,
+      "date_created": "2022-03-05 11:09"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 661,
+    "fields": {
+      "title": "ПК 22-03",
+      "user_id": 78,
+      "date_created": "2022-03-15 10:46"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 662,
+    "fields": {
+      "title": "Ортософт Мембрана 2 (стом)",
+      "user_id": 95,
+      "date_created": "2022-03-15 13:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 663,
+    "fields": {
+      "title": "CV-1500",
+      "user_id": 115,
+      "date_created": "2022-03-15 15:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 664,
+    "fields": {
+      "title": "Центрифуги NF",
+      "user_id": 83,
+      "date_created": "2022-03-16 10:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 668,
+    "fields": {
+      "title": "ФСЗ 2009/04993",
+      "user_id": 80,
+      "date_created": "2022-03-22 14:03"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 669,
+    "fields": {
+      "title": "ввоз_Camlog_03_IS",
+      "user_id": 101,
+      "date_created": "2022-03-23 13:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 670,
+    "fields": {
+      "title": "Письмо об ускорении_протетика НСТ",
+      "user_id": 101,
+      "date_created": "2022-03-23 13:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 671,
+    "fields": {
+      "title": "Письмо об увеличении срока устранения замечаний_Адаптер Miktell",
+      "user_id": 101,
+      "date_created": "2022-03-23 13:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 672,
+    "fields": {
+      "title": "Нити Samyang",
+      "user_id": 101,
+      "date_created": "2022-03-23 15:11"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 673,
+    "fields": {
+      "title": "TriClip Эбботт",
+      "user_id": 89,
+      "date_created": "2022-03-28 11:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 674,
+    "fields": {
+      "title": "Камера дез Фармсил",
+      "user_id": 89,
+      "date_created": "2022-03-28 15:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 676,
+    "fields": {
+      "title": "Сиена",
+      "user_id": 124,
+      "date_created": "2022-03-29 9:54"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 677,
+    "fields": {
+      "title": "Рим про",
+      "user_id": 124,
+      "date_created": "2022-03-29 9:54"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 678,
+    "fields": {
+      "title": "Рим",
+      "user_id": 124,
+      "date_created": "2022-03-29 10:05"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 679,
+    "fields": {
+      "title": "Диаком нео",
+      "user_id": 124,
+      "date_created": "2022-03-29 10:07"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 681,
+    "fields": {
+      "title": "Диаком Рэй",
+      "user_id": 124,
+      "date_created": "2022-03-29 10:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 682,
+    "fields": {
+      "title": "90049",
+      "user_id": 124,
+      "date_created": "2022-03-29 10:09"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 684,
+    "fields": {
+      "title": "Инструменты многоразовые",
+      "user_id": 125,
+      "date_created": "2022-03-30 11:06"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 685,
+    "fields": {
+      "title": "НСТ_Письмо об ускорении регистрации",
+      "user_id": 101,
+      "date_created": "2022-03-30 12:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 687,
+    "fields": {
+      "title": "набор",
+      "user_id": 125,
+      "date_created": "2022-03-30 13:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 688,
+    "fields": {
+      "title": "Катетер OutbackElite",
+      "user_id": 96,
+      "date_created": "2022-03-30 14:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 689,
+    "fields": {
+      "title": "Катетер OutbackElite",
+      "user_id": 96,
+      "date_created": "2022-03-30 14:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 690,
+    "fields": {
+      "title": "сверло",
+      "user_id": 125,
+      "date_created": "2022-03-31 14:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 691,
+    "fields": {
+      "title": "К.М",
+      "user_id": 125,
+      "date_created": "2022-03-31 14:20"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 692,
+    "fields": {
+      "title": "Электроды",
+      "user_id": 125,
+      "date_created": "2022-03-31 14:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 693,
+    "fields": {
+      "title": "Logiq P9",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 694,
+    "fields": {
+      "title": "Эстетика 3.0",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 695,
+    "fields": {
+      "title": "Xario 100 (Диордиева)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:38"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 696,
+    "fields": {
+      "title": "Unique",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 697,
+    "fields": {
+      "title": "Clinac",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 698,
+    "fields": {
+      "title": "Имплантанты Филос (Диордиева)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 699,
+    "fields": {
+      "title": "Aplio a (Диордиева)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 700,
+    "fields": {
+      "title": " Набор реагентов ИВД NextSeq TM 550Dx v2.5, 75 циклов (NextSeq TM 550Dx High Output Reagent Kit v2.5 (75 cycles)) для секвенирования нуклеиновых кислот",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 701,
+    "fields": {
+      "title": "Система неинвазивного пренатального тестирования для определения множественных врожденных анеуплоидий ИВД VeriSeqTM NIPT Solution v2, анализ нуклеиновых кислот, в вариантах исполнения",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:46"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 702,
+    "fields": {
+      "title": "Станция дозирующая автоматическая VeriSeq",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:47"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 703,
+    "fields": {
+      "title": "Аппарат хирургический Acculan 4 в вариантах исполнения c принадлежностями\n(Гузий)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 704,
+    "fields": {
+      "title": "Инструменты хирургические для аппарата хирургического Acculan 4, многоразовые стерильные в вариантах исполнения (Гузий)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 705,
+    "fields": {
+      "title": "Инструменты хирургические для аппарата хирургического Acculan 4, одноразового применения стерильные в вариантах исполнения, с принадлежностями (Гузий)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 706,
+    "fields": {
+      "title": "Клипса на створки трехстворчатого клапана с системой установки в вариантах исполнения (TriClip) (Диордиева)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 707,
+    "fields": {
+      "title": "Инструменты хирургические для аппарата хирургического Acculan 4, многоразовые нестерильные в вариантах исполнения (Гузий)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:51"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 708,
+    "fields": {
+      "title": "Насадки хирургические механизированные для аппарата хирургического Acculan 4, в вариантах исполнения с принадлежностями (Гузий)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:52"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 709,
+    "fields": {
+      "title": "Камера дезинфекционная паровая ФАРМСТИЛ по ТУ 32.50.50-005-18025526-2021 (Соловьев)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:52"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 710,
+    "fields": {
+      "title": "Аппарат рентгенографический и рентгеноскопический медицинский передвижной С-дуга «СИЕНА» (Гогия)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 711,
+    "fields": {
+      "title": "Аппарат искусственной вентиляции легких с постоянным положительным давлением (RESmart GII ВРАР System), модель  Y-30T, в составе (Диордиева)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:54"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 712,
+    "fields": {
+      "title": "Наконечники пластиковые в штативах для автоматизированных систем (Воробьева)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 713,
+    "fields": {
+      "title": "Имплантат интрадермальный стерильный на основе стабилизированной гиалуроновой кислоты RRS® HA LONG LASTING, в составе (Диордиева)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 714,
+    "fields": {
+      "title": "Система доставки лигатур Аксилен для реконструктивно-восстановительной хирургии, стерильная по ТУ 32.50.22-017-56257679-2021 (Соловьев)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:56"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 715,
+    "fields": {
+      "title": "Zexira (Апросина)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:57"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 716,
+    "fields": {
+      "title": "Оптилен",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 717,
+    "fields": {
+      "title": "РИМ (Апросина)",
+      "user_id": 127,
+      "date_created": "2022-04-01 19:59"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 718,
+    "fields": {
+      "title": "Б. МИКС",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:16"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 719,
+    "fields": {
+      "title": "КМ-01 ДЕЛЬРУС",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 720,
+    "fields": {
+      "title": "ИФА",
+      "user_id": 72,
+      "date_created": "2022-04-04 9:18"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 721,
+    "fields": {
+      "title": "Кресло терапевт.Лидкор",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:19"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 723,
+    "fields": {
+      "title": "ЛИДЛИФТ",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:21"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 724,
+    "fields": {
+      "title": "ЛИДСТАТ",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:22"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 725,
+    "fields": {
+      "title": "ЛИДСТИК",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 726,
+    "fields": {
+      "title": "Стол Лидкор",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:23"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 727,
+    "fields": {
+      "title": "Термолог-Транс",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 728,
+    "fields": {
+      "title": "Тромикс",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 729,
+    "fields": {
+      "title": "Т-Солдер",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 730,
+    "fields": {
+      "title": "Фракционатор ФК-01",
+      "user_id": 78,
+      "date_created": "2022-04-04 9:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 731,
+    "fields": {
+      "title": "Р-Фарм сопровождение Набор реагентов Type II для подготовки цитологических препаратов в вариантах исполнения на 50 и 100 тестов",
+      "user_id": 127,
+      "date_created": "2022-04-04 16:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 732,
+    "fields": {
+      "title": "Р-Фарм Сопровождение Устройство автоматическое для подготовки и окрашивания препаратов на предметном стекле, модель LTS-3000 в вариантах исполнения  LTS-3000А, LTS-3000В  с принадлежностями",
+      "user_id": 127,
+      "date_created": "2022-04-04 16:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 733,
+    "fields": {
+      "title": "Р-Фарм Сопровождение Набор реагентов Type III для подготовки цитологических препаратов в вариантах исполнения на 50 и 100 тестов",
+      "user_id": 127,
+      "date_created": "2022-04-04 16:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 734,
+    "fields": {
+      "title": "УЗИ RS85",
+      "user_id": 93,
+      "date_created": "2022-04-07 10:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 735,
+    "fields": {
+      "title": "FGM ввоз",
+      "user_id": 72,
+      "date_created": "2022-04-07 10:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 739,
+    "fields": {
+      "title": "Белье операционное",
+      "user_id": 84,
+      "date_created": "2022-04-13 11:13"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 740,
+    "fields": {
+      "title": "Ввоз Camlog FID",
+      "user_id": 101,
+      "date_created": "2022-04-15 11:35"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 741,
+    "fields": {
+      "title": "Ввоз Camlog INS",
+      "user_id": 101,
+      "date_created": "2022-04-15 11:37"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 742,
+    "fields": {
+      "title": "Ввоз Camlog PDNS",
+      "user_id": 101,
+      "date_created": "2022-04-15 12:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 743,
+    "fields": {
+      "title": "Ввоз Camlog PDS",
+      "user_id": 101,
+      "date_created": "2022-04-15 12:24"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 744,
+    "fields": {
+      "title": "Виваси без лидокаина",
+      "user_id": 90,
+      "date_created": "2022-04-15 12:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 745,
+    "fields": {
+      "title": "Виваси Lidocaine",
+      "user_id": 90,
+      "date_created": "2022-04-15 12:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 746,
+    "fields": {
+      "title": "Стент Herculink",
+      "user_id": 116,
+      "date_created": "2022-04-18 8:06"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 747,
+    "fields": {
+      "title": "Инкубаторы EN",
+      "user_id": 83,
+      "date_created": "2022-04-18 10:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 748,
+    "fields": {
+      "title": "MG Latex Standard",
+      "user_id": 80,
+      "date_created": "2022-04-18 19:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 750,
+    "fields": {
+      "title": "Подача по 11020",
+      "user_id": 83,
+      "date_created": "2022-04-20 15:52"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 753,
+    "fields": {
+      "title": "87733",
+      "user_id": 128,
+      "date_created": "2022-04-27 15:17"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 755,
+    "fields": {
+      "title": "Мерлин Эбботт",
+      "user_id": 89,
+      "date_created": "2022-05-04 9:58"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 756,
+    "fields": {
+      "title": "Грифолз Эфлексис",
+      "user_id": 82,
+      "date_created": "2022-05-06 13:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 758,
+    "fields": {
+      "title": "IQ",
+      "user_id": 81,
+      "date_created": "2022-05-13 8:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 759,
+    "fields": {
+      "title": "610/710",
+      "user_id": 81,
+      "date_created": "2022-05-13 8:26"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 765,
+    "fields": {
+      "title": "Контроль 4 Грифолз",
+      "user_id": 82,
+      "date_created": "2022-05-23 11:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 792,
+    "fields": {
+      "title": "ЭРСТВАК обращение",
+      "user_id": 90,
+      "date_created": "2022-06-27 11:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 793,
+    "fields": {
+      "title": "Имплантаты Штрауманн",
+      "user_id": 90,
+      "date_created": "2022-06-29 16:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 795,
+    "fields": {
+      "title": "Шприцы",
+      "user_id": 98,
+      "date_created": "2022-07-04 16:25"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 797,
+    "fields": {
+      "title": "ATOS список в моделей и ВИРД",
+      "user_id": 105,
+      "date_created": "2022-07-05 15:48"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 798,
+    "fields": {
+      "title": "Шапочки",
+      "user_id": 73,
+      "date_created": "2022-07-06 15:14"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 799,
+    "fields": {
+      "title": "Инструменты и приспособления Антожир",
+      "user_id": 110,
+      "date_created": "2022-07-07 10:02"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 800,
+    "fields": {
+      "title": "Компоненты стерильные Нуво",
+      "user_id": 110,
+      "date_created": "2022-07-08 12:42"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 801,
+    "fields": {
+      "title": "Аппарат Lympha Touch",
+      "user_id": 78,
+      "date_created": "2022-07-08 13:41"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 802,
+    "fields": {
+      "title": "Лимфотач",
+      "user_id": 79,
+      "date_created": "2022-07-08 16:55"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 803,
+    "fields": {
+      "title": "Vr",
+      "user_id": 74,
+      "date_created": "2022-07-11 11:04"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 804,
+    "fields": {
+      "title": "Dr",
+      "user_id": 74,
+      "date_created": "2022-07-11 11:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 805,
+    "fields": {
+      "title": "53467",
+      "user_id": 74,
+      "date_created": "2022-07-11 11:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 806,
+    "fields": {
+      "title": "Штрауманн",
+      "user_id": 110,
+      "date_created": "2022-07-13 9:42"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 807,
+    "fields": {
+      "title": "V-8",
+      "user_id": 121,
+      "date_created": "2022-07-13 13:08"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 808,
+    "fields": {
+      "title": "ВИРД Perclose ProStyle",
+      "user_id": 116,
+      "date_created": "2022-07-14 18:30"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 809,
+    "fields": {
+      "title": "GIF-1100",
+      "user_id": 115,
+      "date_created": "2022-07-15 15:09"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 810,
+    "fields": {
+      "title": "LP100",
+      "user_id": 115,
+      "date_created": "2022-07-15 15:36"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 812,
+    "fields": {
+      "title": "Endocuff",
+      "user_id": 115,
+      "date_created": "2022-07-15 15:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 813,
+    "fields": {
+      "title": "Катетер OutbackElite",
+      "user_id": 130,
+      "date_created": "2022-07-18 11:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 814,
+    "fields": {
+      "title": "Atras сортировщик пробирок",
+      "user_id": 78,
+      "date_created": "2022-07-22 11:45"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 815,
+    "fields": {
+      "title": "Судоскан ввоз",
+      "user_id": 72,
+      "date_created": "2022-07-28 10:39"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 816,
+    "fields": {
+      "title": "Тех. ошибка",
+      "user_id": 72,
+      "date_created": "2022-07-29 9:33"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 817,
+    "fields": {
+      "title": "Пцр без выделения",
+      "user_id": 82,
+      "date_created": "2022-08-01 13:40"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 820,
+    "fields": {
+      "title": "Сухожары FN, исправление ошибки в РУ",
+      "user_id": 105,
+      "date_created": "2022-08-08 9:53"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 821,
+    "fields": {
+      "title": "Merlin еаэс",
+      "user_id": 74,
+      "date_created": "2022-08-09 8:32"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 822,
+    "fields": {
+      "title": "Navitor",
+      "user_id": 74,
+      "date_created": "2022-08-09 8:34"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 823,
+    "fields": {
+      "title": "Ввоз МИ в целях регистрации",
+      "user_id": 105,
+      "date_created": "2022-08-11 18:43"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 824,
+    "fields": {
+      "title": "QSight",
+      "user_id": 82,
+      "date_created": "2022-08-12 10:49"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 825,
+    "fields": {
+      "title": "3044 Neobase 2",
+      "user_id": 82,
+      "date_created": "2022-08-12 10:50"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 827,
+    "fields": {
+      "title": "FS630",
+      "user_id": 72,
+      "date_created": "2022-08-12 11:15"
+    }
+  },
+  {
+    "model": "rzn.Tasks",
+    "id": 828,
+    "fields": {
+      "title": "Реагенты Mythic",
+      "user_id": 97,
+      "date_created": "2022-08-18 14:10"
+    }
+  }
+]

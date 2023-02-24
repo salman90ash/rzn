@@ -1,0 +1,42 @@
+[
+  {
+    "model": "rzn.TasksType",
+    "pk": 1,
+    "fields": {
+      "title": "РУ",
+      "is_active": true
+    }
+  },
+  {
+    "model": "rzn.TasksType",
+    "pk": 2,
+    "fields": {
+      "title": "ВИРД",
+      "is_active": true
+    }
+  },
+    {
+    "model": "rzn.TasksType",
+    "pk": 3,
+    "fields": {
+      "title": "Дубликат",
+      "is_active": true
+    }
+  },
+    {
+    "model": "rzn.TasksType",
+    "pk": 4,
+    "fields": {
+      "title": "Обращения по вх.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "rzn.TasksType",
+    "pk": 5,
+    "fields": {
+      "title": "Обращения по исх.",
+      "is_active": true
+    }
+  }
+]

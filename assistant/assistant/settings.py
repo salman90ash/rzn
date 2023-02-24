@@ -133,3 +133,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 API_TG_TOKEN = os.environ.get('API_TG_TOKEN')
 PROXY_OPTIONS = os.environ.get('PROXY_OPTIONS')
+RZN_DOMAIN = 'https://roszdravnadzor.gov.ru'

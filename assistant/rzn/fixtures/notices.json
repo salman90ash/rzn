@@ -1,0 +1,34 @@
+[
+  {
+    "model": "rzn.TasksNotice",
+    "pk": 1,
+    "fields": {
+      "title": "Нет обновлений.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "rzn.TasksNotice",
+    "pk": 2,
+    "fields": {
+      "title": "Обновилась информация на сайте.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "rzn.TasksNotice",
+    "pk": 3,
+    "fields": {
+      "title": "Увеличилось количество строк на сайте.",
+      "is_active": true
+    }
+  },
+  {
+    "model": "rzn.TasksNotice",
+    "pk": 4,
+    "fields": {
+      "title": "Уменьшилось количество строк.",
+      "is_active": true
+    }
+  }
+]
