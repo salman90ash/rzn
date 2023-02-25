@@ -9,6 +9,7 @@ from assistant.settings import API_TG_TOKEN
 from rzn.actions.general import set_task_info
 import json
 import datetime
+import time
 
 
 # Create your views here.
@@ -37,6 +38,9 @@ def tg_create_user(request, token):
             return HttpResponse(user)
         except IntegrityError:
             return HttpResponse(False)
+    else:
+        print(f"error value API_TG_TOKEN")
+        return HttpResponse(False)
 
 
 @csrf_exempt
@@ -58,21 +62,29 @@ def tg_get_user(request, token, tg_chat_id):
 
 
 @csrf_exempt
-def tg_set_sorting(request, token, tg_chat_id):
-    global API_TG_TOKEN
+def tg_setting_sorting(request, token, tg_chat_id):
     if API_TG_TOKEN == token:
-        try:
-            setting_task_sorting = request.POST.get("setting_task_sorting")
-            user = CustomUser.objects.get(tg_chat_id=tg_chat_id)
-            user.setting_task_sorting = setting_task_sorting
-            user.save()
-            user_dict = {
-                "setting_task_sorting": setting_task_sorting
-            }
-            return HttpResponse(json.dumps(user_dict), content_type="application/json")
-        except ObjectDoesNotExist:
-            return HttpResponse(False)
-
+        if request.method == "POST":
+            try:
+                setting_task_sorting = request.POST.get("setting_task_sorting")
+                user = CustomUser.objects.get(tg_chat_id=tg_chat_id)
+                user.setting_task_sorting = setting_task_sorting
+                user.save()
+                user_dict = {
+                    "setting_task_sorting": setting_task_sorting
+                }
+                return HttpResponse(json.dumps(user_dict), content_type="application/json")
+            except ObjectDoesNotExist:
+                return HttpResponse(False)
+        elif request.method == "GET":
+            try:
+                user = CustomUser.objects.get(tg_chat_id=tg_chat_id)
+                user_dict = {
+                    "type_sort": user.setting_task_sorting
+                }
+                return HttpResponse(json.dumps(user_dict), content_type="application/json")
+            except ObjectDoesNotExist:
+                return HttpResponse(False)
 
 @csrf_exempt
 def tg_set_task_title(request, token, tg_chat_id):
@@ -240,18 +252,102 @@ def tg_del_task(request, token, task_id):
 def tg_update_tasks(request, token):
     global API_TG_TOKEN
     if API_TG_TOKEN == token:
-        objs = TasksData.objects.filter(is_active=True, completed=False, notice=1)
-        for obj in objs:
-            key = TasksKey.objects.get(is_active=True, data=obj.pk)
-            new_key: TasksKey = TasksKey(value=obj.get_key())
+        tasks_data = TasksData.objects.filter(is_active=True, completed=False, notice=1)
+        for data in tasks_data:
+            key = TasksKey.objects.get(is_active=True, data=data.pk)
+            new_key: TasksKey = TasksKey(value=data.get_key())
             notice_id = key.compare(new_key)
             if notice_id > 1:
+                # добавление ключа и смена статуса у старого ключа
+                new_key.data = data
+                new_key.save()
                 key.is_active = False
                 key.save()
-                new_key.data = obj
-                new_key.save()
-                notice = TasksNotice.objects.get(pk=notice_id)
-                obj.notice = notice
-                obj.save()
+
+                # проверка на завершенность задачи, метод возвращает True || False
+                completeness = new_key.completeness_check(data.type.id)
+                if completeness:
+                    data.notice_id = TasksNotice.objects.get(pk=5)
+                    data.is_active = False
+                else:
+                    data.notice = TasksNotice.objects.get(pk=notice_id)
+                data.save()
         result = json.dumps({'answer': 'ok'})
         return HttpResponse(result, content_type="application/json")
+
+
+@csrf_exempt
+@transaction.atomic
+def tg_send_updates(request, token):
+    global API_TG_TOKEN
+    if API_TG_TOKEN == token:
+        tasks_data = TasksData.objects.filter(notice_id__gte=2)
+        list_result = []
+        for data in tasks_data:
+            tasks = Tasks.objects.filter(data=data.pk)
+            for task in tasks:
+                notice_text = data.notice.title
+                user_tg_chat_id = task.user.tg_chat_id
+                title = task.title
+                task_type = data.type.title
+                if data.notice.pk == 5:
+                    completed = True
+                else:
+                    completed = False
+                dict_result = {
+                    'chat_id': user_tg_chat_id,
+                    'taskdata_id': data.id,
+                    'type': task_type,
+                    'title': title,
+                    'notice': notice_text,
+                    'completed': completed,
+                    'url': data.get_url_for_browser()
+                }
+                list_result.append(dict_result)
+        result = json.dumps(list_result)
+        return HttpResponse(result, content_type="application/json")
+
+
+@csrf_exempt
+def tg_update_task_after_send_notif(request, token, task_data_id):
+    global API_TG_TOKEN
+    if API_TG_TOKEN == token:
+        try:
+            task_data = TasksData.objects.get(pk=task_data_id)
+        except TasksData.DoesNotExist:
+            task_data = None
+        if task_data is None:
+            return HttpResponse(False, content_type="application/json")
+        notice = TasksNotice.objects.get(pk=1)
+        task_data.notice = notice
+        task_data.is_active = False
+        tasks = Tasks.objects.filter(data_id=task_data.pk)
+        for task in tasks:
+            task.is_active = False
+            task.save()
+        task_data.save()
+        return HttpResponse(task_data, content_type="application/json")
+
+
+@csrf_exempt
+def check_rzn_accessibility(request, token):
+    if API_TG_TOKEN == token:
+        accessibility = False
+        user_dict = {
+            "accessibility": accessibility
+        }
+        try:
+            notice = TasksNotice.objects.get(id=1)
+            type = TasksType.objects.get(id=1)
+            data = TasksData(rzn_number='77676',
+                             rzn_date='28.10.2021',
+                             notice=notice,
+                             type=type
+                             )
+            res = data.get_page_html()
+            if res != '':
+                accessibility = True
+                user_dict['accessibility'] = accessibility
+        except Exception as e:
+            print(e)
+        return HttpResponse(json.dumps(user_dict), content_type="application/json")

@@ -16,5 +16,5 @@ class CustomUser(AbstractUser):
     date_UPD = models.DateTimeField(auto_now=True, verbose_name='Дата обновления', blank=True)
 
     def __str__(self):
-        return self.username
+        return f"{self.tg_chat_id=}, {self.username}"
 

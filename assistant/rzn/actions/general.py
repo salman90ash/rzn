@@ -4,12 +4,6 @@ def type_cab_mi_or_not(type_id: int) -> bool:
     return False
 
 
-def check_rzn_details(type_id: int) -> bool:
-    if type_id == 6:
-        return False
-    return True
-
-
 def get_title_task_details(title, task_type_id, task_type_title, number, date):
     if task_type_id == 6:
         return f"{title} ({task_type_title} | Исх. № {number} от {date})"
