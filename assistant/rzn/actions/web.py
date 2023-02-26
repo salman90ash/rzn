@@ -117,10 +117,9 @@ def get_html(chrome: webdriver):
     return chrome.page_source
 
 
-def get_page_screenshot(chrome: webdriver):
-    chrome.save_screenshot("screenshot.png")
-    chrome.close()
-    chrome.quit()
+def get_page_screenshot(chrome: webdriver, path: str, name: str):
+    ele = chrome.find_element(by=By.CLASS_NAME, value='m-cabinet')
+    ele.screenshot(f"{path}/{name}.png")
 
 
 def get_html_rzn_page(url: str):

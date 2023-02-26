@@ -1,9 +1,13 @@
 from django.db import models
+
+import assistant.settings
 from assistant.settings import AUTH_USER_MODEL, RZN_DOMAIN
 from rzn.actions.completeness import check_cab_mi, check_le
 from rzn.actions.general import type_cab_mi_or_not
 from rzn.actions.key import get_key_cab_mi, get_key_le
-from rzn.actions.web import get_page, website_availability_check, input_data, get_html, close_webdriver
+from rzn.actions.web import get_page, website_availability_check, input_data, get_html, close_webdriver, \
+    get_page_screenshot
+from pathlib import Path
 
 
 # Create your models here.
@@ -97,6 +101,8 @@ class TasksData(models.Model):
         if website_availability_check(chrome):
             input_data(chrome, self)
             html = get_html(chrome)
+            path = f"{Path.home()}{assistant.settings.PATH_SCR}"
+            get_page_screenshot(chrome, path, self.pk)
             close_webdriver(chrome)
             return html
         else:
@@ -137,6 +143,7 @@ class TasksKey(models.Model):
                     return 3  # Увеличилось количество строк на сайте.
                 elif self < other:
                     return 4  # Уменьшилось количество строк.
+        return 1
 
     def __eq__(self, other):
         return len(self.value) == len(other.value)

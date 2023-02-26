@@ -1,12 +1,16 @@
+from pathlib import Path
+
 from django.core.exceptions import ObjectDoesNotExist
 from django.shortcuts import render
 from django.http import HttpResponse
+
+import assistant.settings
 from rzn.models import TasksData, TasksNotice, TasksType, TasksKey, Tasks
 from users.models import CustomUser
 from django.db import IntegrityError, transaction
 from django.views.decorators.csrf import csrf_exempt
 from assistant.settings import API_TG_TOKEN
-from rzn.actions.general import set_task_info
+from rzn.actions.general import set_task_info, clear_folder
 from django.core import serializers
 import json
 import datetime
@@ -269,6 +273,8 @@ def tg_del_task(request, token, task_id):
 def tg_update_tasks(request, token):
     global API_TG_TOKEN
     if API_TG_TOKEN == token:
+        path = f"{Path.home()}{assistant.settings.PATH_SCR}"
+        clear_folder(path)
         tasks_data = TasksData.objects.filter(is_active=True, completed=False, notice=1)
         for data in tasks_data:
             key = TasksKey.objects.get(is_active=True, data=data.pk)
@@ -307,17 +313,27 @@ def tg_send_updates(request, token):
                 user_tg_chat_id = task.user.tg_chat_id
                 title = task.title
                 task_type = data.type.title
-                if data.notice.pk == 5:
-                    completed = True
+                user = CustomUser.objects.get(id=task.user_id)
+                name = ''
+                if len(user.tg_username) > 1:
+                    name = "@" + user.tg_username
+                if len(user.tg_first_name) > 1:
+                    name = name + f" ({user.tg_first_name})"
+                    if len(user.tg_last_name) > 1:
+                        name = name[:-1] + f" {user.tg_last_name})"
                 else:
-                    completed = False
+                    if len(user.tg_last_name) > 1:
+                        name = name + f"({user.tg_last_name})"
+
                 dict_result = {
                     'chat_id': user_tg_chat_id,
+                    'user': name,
                     'taskdata_id': data.id,
                     'type': task_type,
                     'title': title,
                     'notice': notice_text,
-                    'url': data.get_url_for_browser()
+                    'url': data.get_url_for_browser(),
+                    'screenshot': task.user.setting_screenshot
                 }
                 list_result.append(dict_result)
         result = json.dumps(list_result)
@@ -334,13 +350,14 @@ def tg_update_task_after_send_notif(request, token, task_data_id):
             task_data = None
         if task_data is None:
             return HttpResponse(False, content_type="application/json")
+        if task_data.notice.pk == 5:
+            task_data.is_active = False
+            tasks = Tasks.objects.filter(data=task_data.pk)
+            for task in tasks:
+                task.is_active = False
+                task.save()
         notice = TasksNotice.objects.get(pk=1)
         task_data.notice = notice
-        task_data.is_active = False
-        tasks = Tasks.objects.filter(data_id=task_data.pk)
-        for task in tasks:
-            task.is_active = False
-            task.save()
         task_data.save()
         return HttpResponse(task_data, content_type="application/json")
 
