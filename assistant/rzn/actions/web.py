@@ -9,7 +9,7 @@ from selenium.common.exceptions import TimeoutException
 from assistant.settings import PROXY_OPTIONS
 from bs4 import BeautifulSoup
 import time
-
+from assistant.settings import PATH_DRIVER
 
 def get_page(url: str, proxy: bool = False, background: bool = False):
     chrome_options = webdriver.ChromeOptions()
@@ -29,12 +29,12 @@ def get_page(url: str, proxy: bool = False, background: bool = False):
                 'no_proxy': 'localhost,127.0.0.1'
             }
         }
-        chrome = webdriver.Chrome(executable_path=r"/home/student/chromedriver",
+        chrome = webdriver.Chrome(executable_path=PATH_DRIVER,
                                   service=Service(ChromeDriverManager().install()),
                                   options=chrome_options,
                                   seleniumwire_options=seleniumwire_options)
     else:
-        chrome = webdriver.Chrome(executable_path=r"/home/student/chromedriver",
+        chrome = webdriver.Chrome(executable_path=PATH_DRIVER,
                                   service=Service(ChromeDriverManager().install()),
                                   options=chrome_options)
 

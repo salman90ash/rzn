@@ -53,9 +53,7 @@ class TasksData(models.Model):
     rzn_date = models.CharField(max_length=255, verbose_name='Вх. дата', null=True)
     dec_number = models.CharField(max_length=255, verbose_name='Исх. номер', null=True)
     dec_date = models.CharField(max_length=255, verbose_name='Исх. дата', null=True)
-    url = models.CharField(max_length=255, verbose_name='URL', null=True)
     is_active = models.BooleanField(default=True, blank=True, null=True)
-    completed = models.BooleanField(default=False, blank=True, verbose_name='Завершено', null=True)
     date_UPD = models.DateTimeField(auto_now=True, verbose_name='Дата обновления', null=True)
     notice = models.ForeignKey('TasksNotice', on_delete=models.CASCADE, null=True)
     type = models.ForeignKey('TasksType', on_delete=models.CASCADE, null=True)
@@ -96,7 +94,8 @@ class TasksData(models.Model):
     def get_page_html(self):
         chrome = get_page(
             url=self.get_url_for_parse(),
-            proxy=True
+            proxy=True,
+            background=True
         )
         if website_availability_check(chrome):
             input_data(chrome, self)

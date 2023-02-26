@@ -166,7 +166,6 @@ def tg_create_task(request, token):
                 type = TasksType.objects.get(id=type_id)
                 data = TasksData(dec_number=number,
                                  dec_date=date,
-                                 url='',
                                  notice=notice,
                                  type=type
                                  )
@@ -175,7 +174,6 @@ def tg_create_task(request, token):
                 type = TasksType.objects.get(id=type_id)
                 data = TasksData(rzn_number=number,
                                  rzn_date=date,
-                                 url='',
                                  notice=notice,
                                  type=type
                                  )

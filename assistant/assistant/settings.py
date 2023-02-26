@@ -135,3 +135,4 @@ API_TG_TOKEN = os.environ.get('API_TG_TOKEN')
 PROXY_OPTIONS = os.environ.get('PROXY_OPTIONS')
 RZN_DOMAIN = 'https://roszdravnadzor.gov.ru'
 PATH_SCR = os.environ.get('PATH_SCR')
+PATH_DRIVER = os.environ.get('PATH_DRIVER')
