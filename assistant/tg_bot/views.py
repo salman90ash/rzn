@@ -7,6 +7,7 @@ from django.db import IntegrityError, transaction
 from django.views.decorators.csrf import csrf_exempt
 from assistant.settings import API_TG_TOKEN
 from rzn.actions.general import set_task_info
+from django.core import serializers
 import json
 import datetime
 import time
@@ -18,26 +19,34 @@ import time
 def tg_create_user(request, token):
     global API_TG_TOKEN
     if API_TG_TOKEN == token:
-        tg_chat_id = request.POST.get("tg_chat_id")
-        tg_username = request.POST.get("tg_username")
-        tg_first_name = request.POST.get("tg_first_name")
-        tg_last_name = request.POST.get("tg_last_name")
-        username = 'username_' + str(tg_chat_id)
-        user = CustomUser(username=username, tg_chat_id=tg_chat_id)
-        if tg_username:
-            user.tg_username = tg_username
+        if request.method == "POST":
+            tg_chat_id = request.POST.get("tg_chat_id")
+            tg_username = request.POST.get("tg_username")
+            tg_first_name = request.POST.get("tg_first_name")
+            tg_last_name = request.POST.get("tg_last_name")
+            username = 'username_' + str(tg_chat_id)
+            user = CustomUser(username=username, tg_chat_id=tg_chat_id)
+            if tg_username:
+                user.tg_username = tg_username
 
-        if tg_first_name:
-            user.tg_first_name = tg_first_name
+            if tg_first_name:
+                user.tg_first_name = tg_first_name
 
-        if tg_last_name:
-            user.tg_last_name = tg_last_name
+            if tg_last_name:
+                user.tg_last_name = tg_last_name
 
-        try:
-            user.save()
-            return HttpResponse(user)
-        except IntegrityError:
-            return HttpResponse(False)
+            try:
+                user.save()
+                return HttpResponse(user)
+            except IntegrityError:
+                return HttpResponse(False)
+        elif request.method == "GET":
+            users = CustomUser.objects.all()
+            res_list = []
+            for user in users:
+                res_list.append(user.tg_chat_id)
+            result = json.dumps(res_list)
+            return HttpResponse(result, content_type="application/json")
     else:
         print(f"error value API_TG_TOKEN")
         return HttpResponse(False)
@@ -80,7 +89,7 @@ def tg_setting_sorting(request, token, tg_chat_id):
             try:
                 user = CustomUser.objects.get(tg_chat_id=tg_chat_id)
                 user_dict = {
-                    "type_sort": user.setting_task_sorting
+                    "setting_task_sorting": user.setting_task_sorting
                 }
                 return HttpResponse(json.dumps(user_dict), content_type="application/json")
             except ObjectDoesNotExist:
@@ -101,6 +110,10 @@ def tg_set_task_title(request, token, tg_chat_id):
             user.save()
             return HttpResponse(json.dumps({"setting_task_title": f"{user.setting_task_title}"}),
                                 content_type="application/json")
+        elif request.method == "GET":
+            user = CustomUser.objects.get(tg_chat_id=tg_chat_id)
+            return HttpResponse(json.dumps({"setting_task_title": f"{user.setting_task_title}"}),
+                                content_type="application/json")
 
 
 @csrf_exempt
@@ -116,6 +129,10 @@ def tg_set_setting_screenshot(request, token, tg_chat_id):
             user = CustomUser.objects.get(tg_chat_id=tg_chat_id)
             user.setting_screenshot = value
             user.save()
+            return HttpResponse(json.dumps({"setting_screenshot": f"{user.setting_screenshot}"}),
+                                content_type="application/json")
+        elif request.method == "GET":
+            user = CustomUser.objects.get(tg_chat_id=tg_chat_id)
             return HttpResponse(json.dumps({"setting_screenshot": f"{user.setting_screenshot}"}),
                                 content_type="application/json")
 
@@ -300,7 +317,6 @@ def tg_send_updates(request, token):
                     'type': task_type,
                     'title': title,
                     'notice': notice_text,
-                    'completed': completed,
                     'url': data.get_url_for_browser()
                 }
                 list_result.append(dict_result)
