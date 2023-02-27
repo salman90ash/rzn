@@ -273,7 +273,7 @@ def tg_update_tasks(request, token):
     if API_TG_TOKEN == token:
         path = f"{Path.home()}{assistant.settings.PATH_SCR}"
         clear_folder(path)
-        tasks_data = TasksData.objects.filter(is_active=True, completed=False, notice=1)
+        tasks_data = TasksData.objects.filter(is_active=True, notice=1)
         for data in tasks_data:
             key = TasksKey.objects.get(is_active=True, data=data.pk)
             new_key: TasksKey = TasksKey(value=data.get_key())

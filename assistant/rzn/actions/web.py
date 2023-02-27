@@ -11,6 +11,7 @@ from bs4 import BeautifulSoup
 import time
 from assistant.settings import PATH_DRIVER
 
+
 def get_page(url: str, proxy: bool = False, background: bool = False):
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument("start-maximized")
@@ -81,15 +82,20 @@ def input_data_cab_mi(chrome: webdriver, task):
 
 
 def input_data_le(chrome: webdriver, task):
-    id_in_doc_num = chrome.find_element(by=By.ID, value='id_doc_num')
-    id_in_doc_num.send_keys(task.dec_number)
-    time.sleep(2)
-    id_in_doc_num = chrome.find_element(by=By.ID, value='id_doc_dt')
-    id_in_doc_num.send_keys(task.dec_date)
-    if type == 4:
+    if task.type.id == 4:
+        id_in_doc_num = chrome.find_element(by=By.ID, value='id_doc_num')
+        id_in_doc_num.send_keys(task.rzn_number)
+        time.sleep(2)
+        id_in_doc_num = chrome.find_element(by=By.ID, value='id_doc_dt')
+        id_in_doc_num.send_keys(task.rzn_date)
         type_select = Select(chrome.find_element(by=By.ID, value='id_doc_type'))
         type_select.select_by_value('1')
-    else:
+    elif task.type.id == 5:
+        id_in_doc_num = chrome.find_element(by=By.ID, value='id_doc_num')
+        id_in_doc_num.send_keys(task.dec_number)
+        time.sleep(2)
+        id_in_doc_num = chrome.find_element(by=By.ID, value='id_doc_dt')
+        id_in_doc_num.send_keys(task.dec_date)
         type_select = Select(chrome.find_element(by=By.ID, value='id_doc_type'))
         type_select.select_by_value('2')
     time.sleep(2)
