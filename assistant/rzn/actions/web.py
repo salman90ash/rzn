@@ -62,10 +62,13 @@ def get_page(url: str, proxy: bool = False, background: bool = False):
     return chrome
 
 
-def website_availability_check(chrome: webdriver):
-    if isinstance(chrome, type(webdriver.Chrome())):
-        return True
-    return False
+def website_availability_check(chrome):
+    if not chrome:
+        return False
+    return True
+    # if isinstance(chrome, type(webdriver.Chrome())):
+    #     return True
+    # return False
 
 
 def input_data_cab_mi(chrome: webdriver, task):
