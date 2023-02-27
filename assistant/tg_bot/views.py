@@ -99,6 +99,7 @@ def tg_setting_sorting(request, token, tg_chat_id):
             except ObjectDoesNotExist:
                 return HttpResponse(False)
 
+
 @csrf_exempt
 def tg_set_task_title(request, token, tg_chat_id):
     global API_TG_TOKEN
@@ -312,20 +313,15 @@ def tg_send_updates(request, token):
                 title = task.title
                 task_type = data.type.title
                 user = CustomUser.objects.get(id=task.user_id)
-                name = ''
-                if len(user.tg_username) > 1:
-                    name = "@" + user.tg_username
-                if len(user.tg_first_name) > 1:
-                    name = name + f" ({user.tg_first_name})"
-                    if len(user.tg_last_name) > 1:
-                        name = name[:-1] + f" {user.tg_last_name})"
-                else:
-                    if len(user.tg_last_name) > 1:
-                        name = name + f"({user.tg_last_name})"
 
                 dict_result = {
                     'chat_id': user_tg_chat_id,
-                    'user': name,
+                    "user": {
+                        "chat_id": user.tg_chat_id,
+                        "username": user.tg_username,
+                        "first_name": user.tg_first_name,
+                        "last_name": user.tg_last_name
+                    },
                     'taskdata_id': data.id,
                     'type': task_type,
                     'title': title,
