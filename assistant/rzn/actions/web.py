@@ -49,7 +49,7 @@ def get_page(url: str, proxy: bool = False, background: bool = False):
         fix_hairline=True,
         run_on_insecure_origins=False
     )
-    chrome.set_page_load_timeout(5)
+    # chrome.set_page_load_timeout(15)
     try:
         chrome.get(url)
         time.sleep(4)

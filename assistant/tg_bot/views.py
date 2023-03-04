@@ -276,6 +276,7 @@ def tg_update_tasks(request, token):
         clear_folder(path)
         tasks_data = TasksData.objects.filter(is_active=True, notice=1)
         for data in tasks_data:
+            print(data)
             key = TasksKey.objects.get(is_active=True, data=data.pk)
             new_key: TasksKey = TasksKey(value=data.get_key())
             notice_id = key.compare(new_key)
