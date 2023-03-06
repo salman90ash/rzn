@@ -60,7 +60,7 @@ class TasksData(models.Model):
     date_created = models.DateTimeField(auto_now_add=True, verbose_name='Дата создания', null=True)
 
     def __str__(self):
-        res = f"type={self.type.title}"
+        res = f"id={self.pk} type={self.type.title}"
         if self.rzn_number is not None:
             res = res + f" number={self.rzn_number}"
         if self.rzn_date is not None:
@@ -97,15 +97,15 @@ class TasksData(models.Model):
             proxy=True,
             background=True
         )
-        if website_availability_check(chrome):
-            input_data(chrome, self)
-            html = get_html(chrome)
-            path = f"{Path.home()}{assistant.settings.PATH_SCR}"
-            get_page_screenshot(chrome, path, self.pk)
-            close_webdriver(chrome)
-            return html
-        else:
-            return ''
+        # if website_availability_check(chrome):
+        input_data(chrome, self)
+        html = get_html(chrome)
+        path = f"{Path.home()}{assistant.settings.PATH_SCR}"
+        get_page_screenshot(chrome, path, self.pk)
+        close_webdriver(chrome)
+        return html
+        # else:
+        #     return ''
 
     def get_key(self):
         html = self.get_page_html()
@@ -138,9 +138,9 @@ class TasksKey(models.Model):
                         if self.value[i] != other.value[i]:
                             return 2  # Обновилась информация на сайте.
                         # print(f"{self.value[i]} == {other.value[i]}")
-                elif self > other:
-                    return 3  # Увеличилось количество строк на сайте.
                 elif self < other:
+                    return 3  # Увеличилось количество строк на сайте.
+                elif self > other:
                     return 4  # Уменьшилось количество строк.
         return 1
 

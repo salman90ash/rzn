@@ -52,7 +52,7 @@ def get_page(url: str, proxy: bool = False, background: bool = False):
     # chrome.set_page_load_timeout(15)
     try:
         chrome.get(url)
-        time.sleep(4)
+        # time.sleep(4)
     except TimeoutException as ex:
         isrunning = 0
         # print("Exception has been thrown. " + str(ex))

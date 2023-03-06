@@ -274,7 +274,7 @@ def tg_update_tasks(request, token):
     if API_TG_TOKEN == token:
         path = f"{Path.home()}{assistant.settings.PATH_SCR}"
         clear_folder(path)
-        tasks_data = TasksData.objects.filter(is_active=True, notice=1)
+        tasks_data = TasksData.objects.filter(is_active=True, notice=1).order_by('id')
         for data in tasks_data:
             print(data)
             key = TasksKey.objects.get(is_active=True, data=data.pk)
