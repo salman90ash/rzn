@@ -60,7 +60,13 @@ def check_type_le(type_id: int) -> bool:
     return False
 
 
+def check_cab_mi(type_id: int) -> bool:
+    if type_id == 1 or type_id == 2 or type_id == 3:
+        return True
+    return False
+
+
 def get_key(html, type_id):
-    if check_cab_mi(type_id):
+    if type_cab_mi_or_not(type_id):
         return get_key_cab_mi(html)
     return get_key_le(html)
