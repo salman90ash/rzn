@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rzn.apps.RznConfig',
     'users.apps.UsersConfig',
+    'django_apscheduler',
 ]
 
 AUTH_USER_MODEL = 'users.CustomUser'
